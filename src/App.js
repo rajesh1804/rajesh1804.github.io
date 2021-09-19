@@ -12,10 +12,8 @@ function App() {
     <Card style={{backgroundColor: 'transparent'}}>
       <Router>
         <Navibar />
-        <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/blog' component={Blog} />
-        </Switch>
         <Footer />
       </Router>
     </Card>
