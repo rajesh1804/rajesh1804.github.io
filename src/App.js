@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Card} from 'react-bootstrap';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Navibar from './components/navibar/Navibar';
 import Home from './components/Home';
 import Blog from './blog/Blog';
