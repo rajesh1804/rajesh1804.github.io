@@ -12,7 +12,7 @@ export default function Navibar(){
             <Nav.Link href="/#about" style={{color: 'rgb(8,129,208)'}}>About</Nav.Link>
             <Nav.Link href="/#portfolio" style={{color: 'rgb(8,129,208)'}}>Porfolio</Nav.Link>
             {
-            <Nav.Link href="/blog" style={{color: 'rgb(8,129,208)'}}>Blog</Nav.Link>
+            <Nav.Link href="/blog#" style={{color: 'rgb(8,129,208)'}}>Blog</Nav.Link>
             // <Nav.Link href="https://github.com/rajesh1804" target="_blank" rel="noopener noreferrer"><GitHub /></Nav.Link>
             // <Nav.Link href="https://in.linkedin.com/in/rajeshm99" target="_blank" rel="noopener noreferrer"><LinkedIn /></Nav.Link>
             }
