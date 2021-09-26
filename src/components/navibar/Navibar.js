@@ -1,5 +1,5 @@
 import {Container, Navbar, Nav} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 // import {GitHub, LinkedIn, FiberManualRecord} from '@material-ui/icons';
 
 export default function Navibar(){
@@ -12,8 +12,9 @@ export default function Navibar(){
             <Nav.Link href="/#home" style={{color: 'rgb(8,129,208'}}>Home</Nav.Link>
             <Nav.Link href="/#about" style={{color: 'rgb(8,129,208)'}}>About</Nav.Link>
             <Nav.Link href="/#portfolio" style={{color: 'rgb(8,129,208)'}}>Porfolio</Nav.Link>
-            {
             <a href="https://rajesh1804.github.io/blog" target="_blank" style={{color: 'rgb(8,129,208)', textDecoration: 'None'}} rel="noreferrer">Blog</a>
+            {
+            // <a href="https://rajesh1804.github.io/blog" target="_blank" style={{color: 'rgb(8,129,208)', textDecoration: 'None'}} rel="noreferrer">Blog</a>
             // <Nav.Link href="https://github.com/rajesh1804" target="_blank" rel="noopener noreferrer"><GitHub /></Nav.Link>
             // <Nav.Link href="https://in.linkedin.com/in/rajeshm99" target="_blank" rel="noopener noreferrer"><LinkedIn /></Nav.Link>
             }
