@@ -4,7 +4,6 @@ import {Card} from 'react-bootstrap';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Navibar from './components/navibar/Navibar';
 import Home from './components/Home';
-import Blog from './blog/Blog';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -13,7 +12,9 @@ function App() {
       <Router>
         <Navibar />
           <Route exact path='/' component={Home} />
-          <Route path='/blog' component={Blog} />
+          {
+            //<Route path='/blog' component={Blog} />
+          }
         <Footer />
       </Router>
     </Card>
