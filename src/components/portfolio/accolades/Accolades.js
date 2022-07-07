@@ -7,13 +7,20 @@ export default function Accolades(){
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header><strong>Execution excellence - SEP Engineers (Q4 2020)</strong> &nbsp; JP Morgan Chase</Accordion.Header>
+            <Accordion.Header><strong>Execution excellence - SEP Engineers (Q1 2022)</strong> &nbsp; JP Morgan Chase</Accordion.Header>
             <Accordion.Body>
               Recognised under the category of 'Execution excellence' for my work as a Software Engineer in the Student Engineer Program (SEP).
               This happens once every quater, where a select number of Engineers in the SEP program are recognised for their work at the firm<br />
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
+            <Accordion.Header><strong>Execution excellence - SEP Engineers (Q4 2020)</strong> &nbsp; JP Morgan Chase</Accordion.Header>
+            <Accordion.Body>
+              Recognised under the category of 'Execution excellence' for my work as a Software Engineer in the Student Engineer Program (SEP).
+              This happens once every quater, where a select number of Engineers in the SEP program are recognised for their work at the firm<br />
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="2">
             <Accordion.Header>
               <strong>Execution excellence - SEP interns (2020)</strong> &nbsp; JP Morgan Chase
             </Accordion.Header>
@@ -22,7 +29,7 @@ export default function Accolades(){
               This happens once towards the end of the internship, where a select number of interns in the SEP program are recognised for their work at the firm<br />
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="2">
+          <Accordion.Item eventKey="3">
             <Accordion.Header>
               <strong>Code for Good - Finalist (2019)</strong> &nbsp; JP Morgan Chase
             </Accordion.Header>
@@ -33,7 +40,7 @@ export default function Accolades(){
               We reached the finals of this competition after 2 presentation rounds - technical & non-technical.<br />
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="3">
+          <Accordion.Item eventKey="4">
             <Accordion.Header>
               <strong>Merit Scholarship for Academic Excellence (2017)</strong> &nbsp; Vellore Institute of Technology
             </Accordion.Header>

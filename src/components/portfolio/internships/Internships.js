@@ -18,6 +18,7 @@ export default function Internships(){
               For each section of the dashboard, there happens a GET call to get data using the <i>'fetch'</i> API in React.js .
               This dashboard also caches the data already fetched from API calls in an active session, and uses it to dynamically to replace an API call when the user tried to hit
               an already hit API endpoint.<br />
+              <b>🏆Accolade(s):</b> Execution excellence - SEP interns (2020)
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">

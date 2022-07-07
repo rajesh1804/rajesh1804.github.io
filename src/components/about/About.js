@@ -12,10 +12,11 @@ export default function About(){
             My works mainly entails using BigData and it's related technologies.
             I am a computer science engineer by degree from VIT, Vellore.
             Through various projects, courses and other hands-on exprience, I have made myself adept in various technologies like <i><strong>Apache Spark</strong>,&nbsp;
-            <strong>Hadoop</strong>, <strong>HiveQL</strong>, <strong>Imapala</strong>, <strong>Sqoop</strong>, <strong>React.js</strong></i>&nbsp;
+            <strong>Hadoop</strong>, <strong>HiveQL</strong>, <strong>Imapala</strong>, <strong>Sqoop</strong>, <strong>React.js</strong>
+            , <strong>Tensorflow</strong>, <strong>Keras</strong></i>&nbsp;
             and in various <i><strong>Python</strong> packages
-            like <strong>Tensorflow</strong>, <strong>Keras</strong>, <strong>Pandas</strong>, <strong>Numpy</strong>, <strong>Scikit-learn</strong>
-            , <strong>Matplotib</strong></i> and many more.
+            like <strong>Pandas</strong>, <strong>Numpy</strong>, <strong>Scikit-learn</strong>
+            , <strong>Psycopg2</strong>, <strong>Matplotib</strong></i> etc.
           </Card.Text>
           <Row>
             <Col>
@@ -26,6 +27,7 @@ export default function About(){
                     <ul><strong>
                       <li>Machine Learning</li>
                       <li>Neural Networks</li>
+                      <li>Natural Language Processing</li>
                       <li>Big Data</li>
                     </strong></ul>
                   </Card.Text>
