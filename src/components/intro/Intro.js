@@ -10,7 +10,7 @@ export default function Intro(){
   useEffect(() => {
     // console.log(textRef)
     init(textRef.current, {
-      strings: ['Software Engineer', 'ML enthusiast', 'Eager learner'],
+      strings: ['Data Science enthusiast', 'Eager learner', 'Ex - Big Data Engineer'],
       backDelay: 1000,
       backSpeed: 60,
       showCursor: true

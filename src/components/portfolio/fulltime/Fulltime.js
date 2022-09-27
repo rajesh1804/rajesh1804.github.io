@@ -10,7 +10,7 @@ export default function Fulltime(){
             <Accordion.Header><strong>JP Morgan Chase </strong> &nbsp; (Bangalore, India)</Accordion.Header>
             <Accordion.Body>
               <strong>Designation: </strong>Software Engineer 2 - SEP<br />
-              <strong>Duration: </strong>January 2022 - Present<br />
+              <strong>Duration: </strong>January 2022 - August 2022<br />
               o Setup a Hadoop datalake that involves storing data in the Hadoop Distributed File Syste comprising of multiple clustered compute nodes.
               This is principally used to process and store relational and nonrelational data.
               This architecture is designed to for analytics applications, supporting a variety of structured, unstructured and semi-structured data making them more
