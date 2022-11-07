@@ -2,7 +2,7 @@ import {Card, Accordion} from 'react-bootstrap';
 
 export default function Projects(){
   return(
-    <Card border="light" style={{backgroundColor: 'transparent'}}>
+    <Card border="light" style={{backgroundColor: 'transparent'}} id="projects">
       <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>💻Projects</Card.Header>
       <Card.Body>
         <Accordion flush>

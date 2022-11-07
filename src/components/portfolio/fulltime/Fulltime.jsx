@@ -2,7 +2,7 @@ import {Card, Accordion} from 'react-bootstrap';
 
 export default function Fulltime(){
   return(
-    <Card border="light" style={{backgroundColor: 'transparent'}}>
+    <Card border="light" style={{backgroundColor: 'transparent'}} id="work">
       <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>👨‍💻Full-time</Card.Header>
       <Card.Body>
         <Accordion flush>

@@ -1,0 +1,14 @@
+import {Card, Container} from 'react-bootstrap';
+
+export default function Contact(){
+  return(
+    <Container id="contact">
+    <Card border="light" style={{backgroundColor: 'transparent'}}>
+        <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>✉️ Contact</Card.Header>
+        <Card.Body as="p">
+            📧 Email: [first name][one][eight][zero][four] at cs [dot] toronto [dot] edu
+        </Card.Body>
+    </Card>
+    </Container>
+  )
+}

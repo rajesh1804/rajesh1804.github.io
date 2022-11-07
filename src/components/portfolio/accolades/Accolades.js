@@ -2,7 +2,7 @@ import {Card, Accordion} from 'react-bootstrap';
 
 export default function Accolades(){
   return(
-    <Card border="light" style={{backgroundColor: 'transparent'}}>
+    <Card border="light" style={{backgroundColor: 'transparent'}} id="accolades">
       <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>🏆Accolades</Card.Header>
       <Card.Body>
         <Accordion flush>
