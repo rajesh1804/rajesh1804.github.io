@@ -11,21 +11,28 @@ export default function Fulltime(){
             <Accordion.Body>
               <strong>Designation: </strong>Software Engineer 2 - SEP<br />
               <strong>Duration: </strong>January 2022 - August 2022<br />
-              o Setup a Hadoop datalake that involves storing data in the Hadoop Distributed File Syste comprising of multiple clustered compute nodes.
-              This is principally used to process and store relational and nonrelational data.
-              This architecture is designed to for analytics applications, supporting a variety of structured, unstructured and semi-structured data making them more
-              suitable for certain operations than narrowly focused data warehouses.<br />
-              o Developed custom ETL framework – handles ingestion & transformation of terabytes of data on daily basis using metadata - using PySpark supports structured
-              & unstructured data and connections with databases, APIs, flat-files, json and HDFS to pump data into the data-lake.<br />
+              o Designed and setup a datalake that involves storing data in the Hadoop Distributed File System comprising of 
+              multiple clustered compute nodes. This is principally used to process and store relational and nonrelational data.
+              This architecture is designed to for analytics applications, supporting a variety of structured, unstructured and 
+              semi-structured data making them more suitable for certain operations than narrowly focused data warehouses.<br />
+              o Implemented a monitor jobs to keep track of the data along with schema details being ingested and stored in the 
+              datalake, saving the time and effort needed to later on figure out the data being stored. <br />
+              o Led the effort to redesign RDBMS SQL queries for on demand data insights to HIVE/Impala queries, reducing run time by 
+              at least 3 folds. <br/>
+              o Succesfully performed a POC to port previously build custom Pyspark based ETL framework to run on AWS using 
+              Amazon EMR, EKS, S3 and Snowflake. <br />
               <b>🏆Accolade(s):</b> Execution excellence (Q1 2022)
             </Accordion.Body>
             <hr />
             <Accordion.Body>
               <strong>Designation: </strong>Software Engineer - SEP<br />
               <strong>Duration: </strong>August 2020 - January 2022<br />
-              o Developed custom ETL framework – handles ingestion & transformation of terabytes of data on daily basis using metadata - using PySpark supports structured
-              & unstructured data and connections with databases, APIs, flat-files, json and HDFS to pump data into the data-lake.<br />
-              o Developed a reconciliation framework using PySpark to reconcile data from different database systems and sends this as data reports to the users.<br />
+              o Developed metadata driven resusable ETL framework that handles ingestion & transformation of terabytes of data on daily 
+              basis using PySpark. It supports structured, unstructured & ssemi-structured data with connectors to databases, APIs, 
+              flat-files, json, etc.,<br />
+              o Developed a reconciliation framework using PySpark to reconcile data from different database systems and sends this as 
+              data reports to the users.<br />
+              o Migrated existing Informatica/Pentaho pipelines to use the former PySpark ETL framework, this cut the run time 5x. <br />
               <b>🏆Accolade(s):</b> Execution excellence (Q4 2020)
             </Accordion.Body>
           </Accordion.Item>

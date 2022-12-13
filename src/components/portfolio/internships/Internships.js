@@ -12,12 +12,13 @@ export default function Internships(){
               <strong>Designation: </strong>Software Engineer Intern - SEP<br />
               <strong>Duration: </strong>January 2020 - July 2020<br />
               <strong>Description: </strong><br />
-              During my internship, I was given the task to build a one-stop web portal using React.js, that replaces the existing MS-Excel reports, thus making it much more easier
-              and efficient for the end user to consume the same data.
-              This multi-page and multi-section dashboard along with  <i>'filter'</i> functionality was build using the famous concepts React-Router & Redux.
-              For each section of the dashboard, there happens a GET call to get data using the <i>'fetch'</i> API in React.js .
-              This dashboard also caches the data already fetched from API calls in an active session, and uses it to dynamically to replace an API call when the user tried to hit
-              an already hit API endpoint.<br />
+              o During my internship, I was given the task to build a one-stop web portal using React.js, that replaces the existing MS-Excel 
+              reports, thus making it much more easier and efficient for the end user to consume the same data.
+              This multi-page and multi-section dashboard along with  <i>'filter'</i> functionality was build using the famous concepts 
+              React-Router & Redux.
+              o For each section of the dashboard, there happens a GET call to get data using the <i>'fetch'</i> API in React.js .
+              This dashboard also caches the data already fetched from API calls in an active session, and uses it to dynamically to 
+              replace an API call when the user tried to hit an already hit API endpoint.<br />
               <b>🏆Accolade(s):</b> Execution excellence - SEP interns (2020)
             </Accordion.Body>
           </Accordion.Item>
@@ -27,9 +28,9 @@ export default function Internships(){
               <strong>Designation: </strong>Data Science Intern<br />
               <strong>Duration: </strong>April 2019 - May 2019<br />
               <strong>Description: </strong><br />
-              Here I worked on a model to determine the sentiment polarity of the data fetched from Twitter API.
-              Developed python scripts to extract tweets and comments from Twitter, and performed NLP based Tokenization, Lemmatization, Vectorization and created
-               higher dimensional word embeddings to capture fine grained relationships between tokens.<br />
+              o Developed a model to determine the sentiment polarity of the data fetched from Twitter API, this involved tokenization,
+              lemmatization, vectorization to create higher dimensional word embeddings and capture fine grained relationships 
+              between tokens.<br />
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
@@ -38,7 +39,7 @@ export default function Internships(){
               <strong>Designation: </strong>Trainee<br />
               <strong>Duration: </strong>April 2017 - June 2019<br />
               <strong>Description: </strong><br />
-              Was involved in developing smooth and seamless login page using HTML, CSS, PHP and Bootstrap.<br />
+              o Developing smooth and seamless login page using HTML, CSS, PHP and Bootstrap.<br />
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
