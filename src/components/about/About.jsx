@@ -15,15 +15,16 @@ function About() {
               I'm a data science enthusiast who also happens to be a <i><strong>Graduate student</strong></i> currently in the 
               department of Computer Science at the <i><strong>University of Toronto</strong></i> pursuing 
               an <i><strong>MSc in Applied Computing</strong></i> (MScAC).
-              Previously, I wa a <i><strong>Software Engineer</strong></i> for a little over 2 years at JP Morgan Chase.
+              Previously, I was a <i><strong>Software Engineer</strong></i> for a little over 2 years at JP Morgan Chase.
               My works their mainly entailed using BigData and it's related technologies.
-              I also have an undergraduate degree in computer science from Vellore Institue of Technology, Vellore, India.
+              I also have an undergraduate degree in computer science from Vellore Institute of Technology, Vellore, India.
               Through various projects, courses and other hands-on exprience, I have made myself adept in various technologies like <i><strong>Apache Spark</strong>,&nbsp;
               <strong>Hadoop</strong>, <strong>HiveQL</strong>, <strong>Impala</strong>, <strong>Sqoop</strong>, <strong>React.js</strong>
               , <strong>Tensorflow</strong>, <strong>Keras</strong></i>&nbsp;
               and in various <i><strong>Python</strong> packages
               like <strong>Pandas</strong>, <strong>Numpy</strong>, <strong>Scikit-learn</strong>
               , <strong>Psycopg2</strong>, <strong>Matplotib</strong></i> etc.
+              Currently, I'm open to internships, part-time or full-time opportunities in the areas of data science, deep learning & machine learning.
             </Card.Text>
             <Row>
               <Col>
@@ -50,7 +51,7 @@ function About() {
                     <Card.Text>
                       <strong>
                       <ListGroup variant="flush" as="ul">
-                        <ListGroup.Item as="li">Open World Gaming</ListGroup.Item>
+                        <ListGroup.Item as="li">Open World Gaming + FIFA</ListGroup.Item>
                         <ListGroup.Item as="li">Cricket</ListGroup.Item>
                         <ListGroup.Item as="li">Binge watching TV shows</ListGroup.Item>
                       </ListGroup>

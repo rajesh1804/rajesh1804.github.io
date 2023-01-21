@@ -3,10 +3,20 @@ import {Card, Accordion} from 'react-bootstrap';
 export default function Fulltime(){
   return(
     <Card border="light" style={{backgroundColor: 'transparent'}} id="work">
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>👨‍💻Full-time</Card.Header>
+      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>👨‍💻Work</Card.Header>
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
+            <Accordion.Header><strong>University of Toronto</strong> &nbsp; (Toronto, Canada)</Accordion.Header>
+            <Accordion.Body>
+              <strong>Designation: </strong>CSC301 (Introduction to Software Engineering) - Teaching Assistant<br />
+              <strong>Duration: </strong>September 2022 - December 2022, January 2023 - Present<br />
+              <strong>Description: </strong><br />
+              o Organized and lead tutorials for 50+ students on software development and engineering.<br />
+              o Managed and advised multiple groups of 50+ students on real-world software engineering projects. <br />
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
             <Accordion.Header><strong>JP Morgan Chase </strong> &nbsp; (Bangalore, India)</Accordion.Header>
             <Accordion.Body>
               <strong>Designation: </strong>Software Engineer 2 - SEP<br />
