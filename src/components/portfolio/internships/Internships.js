@@ -7,6 +7,13 @@ export default function Internships(){
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
+            <Accordion.Header><strong>BlueCat Networks</strong> &nbsp; (Toronto, Canada)</Accordion.Header>
+            <Accordion.Body>
+              <strong>Designation: </strong>Machine Learning Researcher Intern<br />
+              <strong>Duration: </strong>May 2023 - Present<br />
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
             <Accordion.Header><strong>JP Morgan Chase</strong> &nbsp; (Bangalore, India)</Accordion.Header>
             <Accordion.Body>
               <strong>Designation: </strong>Software Engineer Intern - SEP<br />
@@ -22,7 +29,7 @@ export default function Internships(){
               <b>🏆Accolade(s):</b> Execution excellence - SEP interns (2020)
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
+          <Accordion.Item eventKey="2">
             <Accordion.Header><strong>Heptagon Technologies Pvt Ltd</strong> &nbsp; (Bangalore, India)</Accordion.Header>
             <Accordion.Body>
               <strong>Designation: </strong>Data Science Intern<br />
@@ -33,7 +40,7 @@ export default function Internships(){
               between tokens.<br />
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="2">
+          <Accordion.Item eventKey="3">
             <Accordion.Header><strong>Acumen Technologies Pvt Ltd</strong> &nbsp; (Chennai, India)</Accordion.Header>
             <Accordion.Body>
               <strong>Designation: </strong>Trainee<br />

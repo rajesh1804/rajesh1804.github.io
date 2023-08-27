@@ -7,10 +7,10 @@ export default function Fulltime(){
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header><strong>University of Toronto</strong> &nbsp; (Toronto, Canada)</Accordion.Header>
+            <Accordion.Header><strong>University of Toronto</strong> &nbsp; (Toronto, Canada) [Part-time]</Accordion.Header>
             <Accordion.Body>
-              <strong>Designation: </strong>CSC301 (Introduction to Software Engineering) - Teaching Assistant<br />
-              <strong>Duration: </strong>September 2022 - December 2022, January 2023 - Present<br />
+              <strong>Designation: </strong>Teaching Assistant - CSC301 (Introduction to Software Engineering)<br />
+              <strong>Duration: </strong>September 2022 - December 2022, January 2023 - April 2023<br />
               <strong>Description: </strong><br />
               o Organized and lead tutorials for 50+ students on software development and engineering.<br />
               o Managed and advised multiple groups of 50+ students on real-world software engineering projects. <br />

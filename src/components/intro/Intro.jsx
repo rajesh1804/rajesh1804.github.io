@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 import './intro.scss';
 
 function Intro() {
@@ -16,7 +17,8 @@ function Intro() {
                             {/* <Card.Img variant="top" src="assets/pic.png" /> */}
                             <Card.Body>
                                 <div className="imgContainer">
-                                    <img src="assets/pic.png" alt="" />
+                                    {/* <img src="assets/pic.jpg" alt="" /> */}
+                                    <Image src="assets/pic.jpg" rounded/>
                                 </div>
                             </Card.Body>
                         </Card>
