@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 export default function Ta(){
   return(
     <Card border="light" style={{backgroundColor: 'transparent'}} id="work">
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>👨‍💻Teaching Assistanship</Card.Header>
+      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>🧑‍🏫Teaching Assistanship</Card.Header>
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
