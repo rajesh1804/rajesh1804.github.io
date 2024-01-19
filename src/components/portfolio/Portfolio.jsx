@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Fulltime from './fulltime/Fulltime';
 import Internships from './internships/Internships';
+import Ta from './ta/Ta';
 import Publications from './publications/Publications';
 import Accolades from './accolades/Accolades';
 import Projects from './projects/Projects';
@@ -26,6 +27,10 @@ function Portfolio() {
             <br />
             <Row>
                 <Internships />
+            </Row>
+            <br />
+            <Row>
+                <Ta />
             </Row>
             <br />
             <Row>

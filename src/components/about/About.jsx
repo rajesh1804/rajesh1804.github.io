@@ -12,19 +12,23 @@ function About() {
           <Card.Header as="h1" style={{backgroundColor: 'rgb(236,249,254)'}}>👋About</Card.Header>
           <Card.Body>
             <Card.Text>
-              I'm a data science enthusiast who also happens to be a <i><strong>Graduate student</strong></i> currently in the 
-              department of Computer Science at the <i><strong>University of Toronto</strong></i> pursuing 
-              an <i><strong>MSc in Applied Computing</strong></i> (MScAC).
-              Previously, I was a <i><strong>Software Engineer</strong></i> for a little over 2 years at JP Morgan Chase.
-              My works their mainly entailed using BigData and it's related technologies.
-              I also have an undergraduate degree in computer science from Vellore Institute of Technology, Vellore, India.
-              Through various projects, courses and other hands-on exprience, I have made myself adept in various technologies like <i><strong>Apache Spark</strong>,&nbsp;
+              I'm a dedicated professional with a passion for data science and machine learning, with a <i><strong>Master's degree in Applied 
+              Computing</strong></i> from the <i><strong>University of Toronto</strong></i> in the field of Machine Learning. Armed with a wealth of experience, I previously 
+              served as a Software Engineer at JP Morgan Chase, honing my skills in Big Data and related technologies. <br />
+
+              My academic journey includes an undergraduate degree in Computer Science from Vellore Institute of Technology, India. 
+              Throughout my career, I've immersed myself in diverse projects, courses, and hands-on experiences, cultivating expertise 
+              in technologies such as <i><strong>Apache Spark</strong>,&nbsp;
               <strong>Hadoop</strong>, <strong>HiveQL</strong>, <strong>Impala</strong>, <strong>Sqoop</strong>, <strong>React.js</strong>
-              , <strong>Tensorflow</strong>, <strong>Keras</strong></i>&nbsp;
-              and in various <i><strong>Python</strong> packages
-              like <strong>Pandas</strong>, <strong>Numpy</strong>, <strong>Scikit-learn</strong>
-              , <strong>Psycopg2</strong>, <strong>Matplotib</strong></i> etc.
-              Currently, I'm open to internships, part-time or full-time opportunities in the areas of data science, deep learning & machine learning.
+              , <strong>Tensorflow</strong> and <strong>Keras</strong></i>&nbsp;. Additionally, I'm 
+              well-versed in Python packages like <i><strong>Pandas</strong>, <strong>Numpy</strong>, <strong>Scikit-learn</strong>
+              , <strong>Psycopg2</strong> and <strong>Matplotib</strong></i>. <br />
+
+              Currently on the lookout for new opportunities, I am open to internships, part-time, or full-time roles in the dynamic realms 
+              of data science, deep learning, and machine learning. Let's connect and explore the possibilities of making meaningful 
+              contributions in these exciting fields!
+            
+            
             </Card.Text>
             <Row>
               <Col>
@@ -34,9 +38,9 @@ function About() {
                     <Card.Text>
                       <strong>
                       <ListGroup variant="flush" as="ul">
-                        <ListGroup.Item as="li">Data Science</ListGroup.Item>
+                        <ListGroup.Item as="li">Deep Learning</ListGroup.Item>
                         <ListGroup.Item as="li">Machine Learning</ListGroup.Item>
-                        <ListGroup.Item as="li">Neural Networks</ListGroup.Item>
+                        <ListGroup.Item as="li">Data Science</ListGroup.Item>
                         <ListGroup.Item as="li">Big Data</ListGroup.Item>
                       </ListGroup>
                       </strong>
@@ -51,7 +55,7 @@ function About() {
                     <Card.Text>
                       <strong>
                       <ListGroup variant="flush" as="ul">
-                        <ListGroup.Item as="li">Open World Gaming + FIFA</ListGroup.Item>
+                        <ListGroup.Item as="li">Open World Gaming</ListGroup.Item>
                         <ListGroup.Item as="li">Cricket</ListGroup.Item>
                         <ListGroup.Item as="li">Binge watching TV shows</ListGroup.Item>
                       </ListGroup>

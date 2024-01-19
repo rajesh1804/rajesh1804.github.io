@@ -37,9 +37,9 @@ function Navibar() {
                             </NavDropdown.Item>
                         </NavDropdown>
                         
-                        <Nav.Link href="#testimonials">
+                        {/* <Nav.Link href="#testimonials">
                             Testimonials
-                        </Nav.Link>
+                        </Nav.Link> */}
 
                         <Nav.Link href="#resume">
                             Resume

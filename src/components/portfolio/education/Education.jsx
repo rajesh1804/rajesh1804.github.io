@@ -10,8 +10,8 @@ export default function Education(){
             <Accordion.Header><strong>Master of Science in Applied Computing </strong> &nbsp; (MScAC)</Accordion.Header>
             <Accordion.Body>
               <strong>University of Toronto</strong>, Toronto, Canada<br />
-              <strong>September, 2022 - Present </strong><br />
-              <strong>Coursework</strong> (Ongoing): Introduction to Machine Learning, Advanced Data Systems, Cloud based Data Analytics, Neural Networks and Deep Learning, Natural Language Computation
+              <strong>September, 2022 - December, 2023 </strong><br />
+              <strong>Coursework</strong>: Introduction to Machine Learning, Advanced Data Systems, Cloud based Data Analytics, Neural Networks and Deep Learning, Natural Language Computation
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">

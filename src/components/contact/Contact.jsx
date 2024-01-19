@@ -6,7 +6,7 @@ export default function Contact(){
     <Card border="light" style={{backgroundColor: 'transparent'}}>
         <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>✉️ Contact</Card.Header>
         <Card.Body as="p">
-            📧 Email: [first name][one][eight][zero][four] at cs [dot] toronto [dot] edu
+            📧 Email: [first name] [dot] [last name] at gmail [dot] com
         </Card.Body>
     </Card>
     </Container>
