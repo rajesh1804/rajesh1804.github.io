@@ -18,15 +18,15 @@ function Portfolio() {
           <Card.Header as="h1" style={{backgroundColor: 'rgb(236,249,254)'}}>📓Portfolio</Card.Header>
           <Card.Body>
             <Row>
-                <Education />
-            </Row>
-            <br />
-            <Row>
                 <Fulltime />
             </Row>
             <br />
             <Row>
                 <Internships />
+            </Row>
+            <br />
+            <Row>
+                <Education />
             </Row>
             <br />
             <Row>

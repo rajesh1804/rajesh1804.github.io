@@ -17,11 +17,11 @@ function Navibar() {
                         </Nav.Link>
 
                         <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#education" style={{color: 'rgb(8,129,208'}}>
-                                Education
-                            </NavDropdown.Item>
                             <NavDropdown.Item href="#work" style={{color: 'rgb(8,129,208'}}>
                                 Work
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#education" style={{color: 'rgb(8,129,208'}}>
+                                Education
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#accolades" style={{color: 'rgb(8,129,208'}}>
                                 Accolades

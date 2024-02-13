@@ -7,6 +7,20 @@ export default function Fulltime(){
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
+            <Accordion.Header><strong>BlueCat Networks</strong> &nbsp; (Toronto, Canada)</Accordion.Header>
+            <Accordion.Body>
+              <strong>Designation: </strong>Data Science Developer<br />
+              <strong>Duration: </strong>January 2024 - Present<br />
+              <strong>Description: </strong><br />
+              <ListGroup variant='flush'>
+                    <ListGroup.Item>
+                    o Utilized a range of time series forecasting methodologies to accurately predict CPU and memory usage patterns in 
+                    network devices, effectively mitigating network downtime for customer devices.<br />
+                    </ListGroup.Item>
+                </ListGroup>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
             <Accordion.Header><strong>JP Morgan Chase </strong> &nbsp; (Bangalore, India)</Accordion.Header>
             <Accordion.Body>
               <strong>Designation: </strong>Software Engineer 2 - SEP<br />
