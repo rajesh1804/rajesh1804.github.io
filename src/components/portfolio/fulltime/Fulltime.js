@@ -14,8 +14,9 @@ export default function Fulltime(){
               <strong>Description: </strong><br />
               <ListGroup variant='flush'>
                     <ListGroup.Item>
-                    o Utilized a range of time series forecasting methodologies to accurately predict CPU and memory usage patterns in 
-                    network devices, effectively mitigating network downtime for customer devices.<br />
+                    o Leveraged Univariate and Multivariate time series forecasting models [ETS, STL, Naive, Holt, Holt-Winter, ARIMA, ARIMAX, 
+                    VAR models] to forecast various vital network infrastructure metrics to enhance network performance and capacity planning 
+                    for client devices.<br />
                     </ListGroup.Item>
                 </ListGroup>
             </Accordion.Body>
