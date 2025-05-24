@@ -14,14 +14,12 @@ export default function Internships(){
               <strong>Description: </strong><br />
               <ListGroup variant='flush'>
                     <ListGroup.Item>
-                    o Spearheaded research to assess the potential of leveraging deep learning techniques to tackle the issue of DNS Tunnels. 
-                    This involved a thorough examination of the problem landscape and the formulation of innovative approaches to address the
-                     challenges associated with detecting these tunnels.<br />
+                    o I explored weakly-supervised learning techniques to detect DNS tunneling attacks. Using pairwise 
+                    relation prediction, the model hit a <b>67% detection rate</b> on unseen threats—an improvement of <b>23% </b>over 
+                    our baseline.<br />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                    o Modeled and implemented a weakly-supervised learning method to detect DNS Tunnels. Employed a pairwise 
-                    relation prediction technique to prototype a system capable of identifying both previously encountered and previously 
-                    unseen DNS tunnels. Achieved a notable 67% hit rate, showcasing the efficacy of the developed approach.<br />
+                    o To support this, I wrangled billions of DNS records via Trino and built the pipeline with PySpark and Python.<br />
                     </ListGroup.Item>
                 </ListGroup>
             </Accordion.Body>
@@ -34,27 +32,10 @@ export default function Internships(){
               <strong>Description: </strong><br />
               <ListGroup variant='flush'>
                     <ListGroup.Item>
-                    o Undertook the responsibility of building a centralized web portal using React.js during my internship. This dynamic portal 
-              served as a one-stop solution, replacing traditional MS-Excel reports. The transition not only streamlined data access but also 
-              significantly improved user efficiency in consuming relevant information. <br />
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                    o Engineered a multi-page and multi-section dashboard incorporating advanced features such as a filtering mechanism. Leveraged 
-              React-Router and Redux to implement seamless navigation and state management, enhancing user experience and interaction with 
-              the portal.<br />
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                    o Implemented GET calls for each section of the dashboard using the 'fetch' API in React.js. This approach ensured real-time 
-              data retrieval, keeping the information up-to-date and relevant to the user's needs.<br />
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                    o Introduced an active session-based data caching mechanism within the dashboard. This innovative approach involved storing 
-              previously fetched data from API calls, dynamically replacing subsequent API calls with cached data when the user revisited the 
-              same endpoint. This optimization significantly reduced redundant API calls, contributing to a more responsive and efficient 
-              web portal.<br />
+                    o Built a React.js dashboard that replaced manual Excel reporting, saving analysts about <b>2 hours/day</b>. <br />
                     </ListGroup.Item>
                 </ListGroup>
-              <b>🏆Accolade(s):</b> Execution excellence - SEP interns (2020)
+              <b>🏆Accolade(s):</b> Execution excellence - SEP interns (2020) for high-impact contributions.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
@@ -65,10 +46,9 @@ export default function Internships(){
               <strong>Description: </strong><br />
               <ListGroup variant='flush'>
                     <ListGroup.Item>
-                    o Developed a sophisticated sentiment analysis model designed to assess the sentiment polarity of data obtained through the 
-              Twitter API. This intricate task involved a multi-step process, including tokenization, lemmatization, and vectorization. 
-              By employing these techniques, the model created higher-dimensional word embeddings, enabling it to capture nuanced 
-              relationships between tokens and extract fine-grained insights from the text data.<br />
+                    o My first real taste of NLP! I built a sentiment analysis classifier for political tweets using <b>TF-IDF + SVM</b>, 
+                    hitting <b>85%</b> accuracy. I also applied NLP techniques like lemmatization and token co-occurrence embeddings 
+                    to improve model robustness.<br />
                     </ListGroup.Item>
                 </ListGroup>
             </Accordion.Body>

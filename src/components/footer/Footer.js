@@ -11,7 +11,7 @@ export default function Footer(){
   return(
     <Navbar expand="lg" variant="light" style={{backgroundColor: 'rgb(236,249,254)'}}>
       <Container>
-        <Navbar.Brand href="#home">© Rajesh 2024😎</Navbar.Brand>
+        <Navbar.Brand href="#home">© Rajesh 2025😎</Navbar.Brand>
           <Nav className="me-auto">
           </Nav>
           <Nav>

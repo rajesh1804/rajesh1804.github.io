@@ -9,14 +9,30 @@ export default function Fulltime(){
           <Accordion.Item eventKey="0">
             <Accordion.Header><strong>BlueCat Networks</strong> &nbsp; (Toronto, Canada)</Accordion.Header>
             <Accordion.Body>
-              <strong>Designation: </strong>Data Science Developer<br />
-              <strong>Duration: </strong>January 2024 - Present<br />
+              <strong>Designation: </strong>Data Scientist II<br />
+              <strong>Duration: </strong>July 2024 - Present<br />
+              <ListGroup variant='flush'>
+                    <ListGroup.Item>
+                    o At Bluecat, I designed and deployed a Retrieval-Augmented Generation (RAG) chatbot to streamline real-time 
+                    network diagnostics. This helped reduce incident triage time by <strong>40%</strong>, significantly boosting the 
+                    efficiency of our support teams. <br/>
+                    </ListGroup.Item>
+                    <ListGroup.Item>
+                    o I also built time series forecasting models (Exponential Smoothing, ARIMA) to predict infrastructure metrics 
+                    like bandwidth and device load—these models improved our capacity planning accuracy by over <strong>30%</strong>. <br/>
+                    </ListGroup.Item>
+              </ListGroup>
+            </Accordion.Body>
+            <hr />
+            <Accordion.Body>
+              <strong>Designation: </strong>Data Scientist<br />
+              <strong>Duration: </strong>January 2024 - July 2024<br />
               <strong>Description: </strong><br />
               <ListGroup variant='flush'>
                     <ListGroup.Item>
-                    o Leveraged Univariate and Multivariate time series forecasting models [ETS, STL, Naive, Holt, Holt-Winter, ARIMA, ARIMAX, 
-                    VAR models] to forecast various vital network infrastructure metrics to enhance network performance and capacity planning 
-                    for client devices.<br />
+                    o During this phase, I focused on building an anomaly detection system for network packet drops and TCP anomalies. 
+                    The model achieved <strong>92% precision</strong>, helping cut false alerts by <strong>40%</strong> and making monitoring way more reliable 
+                    across <strong>500+ client devices</strong>.<br />
                     </ListGroup.Item>
                 </ListGroup>
             </Accordion.Body>
@@ -28,28 +44,15 @@ export default function Fulltime(){
               <strong>Duration: </strong>January 2022 - August 2022<br />
               <ListGroup variant='flush'>
                     <ListGroup.Item>
-                    o Spearheaded the design and establishment of a comprehensive datalake leveraging the Hadoop Distributed File System (HDFS) 
-              across multiple clustered compute nodes. This innovative solution served as a cornerstone for efficiently processing and 
-              storing both relational and nonrelational data. The architecture, tailored for analytics applications, seamlessly supports 
-              a diverse range of structured, unstructured, and semi-structured data, enhancing operational efficiency compared to traditional, 
-              narrowly-focused data warehouses. <br/>
+                    o Here, I led the design of a centralized data lake (HDFS/YARN) serving <strong>15+ TB</strong> of structured data across 
+                    10+ teams. I also optimized legacy SQL queries for Hive and Impala, cutting their runtime by <strong>60%</strong>. <br/>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                    o Implemented a monitoring system for tracking data ingestion and storage in the datalake. This proactive approach significantly 
-              reduced the time and effort required to discern the nature of stored data and its associated schema details, ensuring a 
-              streamlined and well-documented data management process. <br />
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                    o Led the redesign of RDBMS SQL queries to seamlessly transition to HIVE/Impala queries. This transformation resulted in a 
-              remarkable reduction in query run time by at least threefold, enhancing the speed and efficiency of on-demand data insights. <br />
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                    o Successfully perfomed a POC to port a custom Pyspark-based ETL framework from an on-premise environment to the cloud 
-              using Amazon Web Services (AWS). Leveraged Amazon EMR, EKS, S3, and Snowflake to seamlessly transition and optimize data 
-              processing workflows, demonstrating the feasibility and benefits of cloud-based operations. <br />
+                    o I  drove a successful PoC to migrate our custom ETL framework to <strong>AWS EKS + Snowflake</strong>, boosting scalability and 
+                    reducing costs by <strong>~20%</strong>. <br />
                     </ListGroup.Item>
               </ListGroup>
-              <b>🏆Accolade(s):</b> Execution excellence (Q1 2022)
+              <b>🏆Accolade(s):</b> Execution excellence (Q1 2022) for outstanding delivery in cross-functional initiatives.
             </Accordion.Body>
             <hr />
             <Accordion.Body>
@@ -57,23 +60,15 @@ export default function Fulltime(){
               <strong>Duration: </strong>August 2020 - January 2022<br />
               <ListGroup variant='flush'>
                     <ListGroup.Item>
-                    o Conceptualized and developed a metadata-driven, reusable ETL framework utilizing PySpark. This innovative solution efficiently 
-              manages the ingestion and transformation of terabytes of data on a daily basis. The framework accommodates structured, 
-              unstructured, and semi-structured data, offering seamless connectivity to various data sources including databases, APIs, 
-              flat-files, and JSON. This adaptability ensures robust data processing capabilities across diverse data formats.<br />
+                    o I built a production-ready, reusable ETL framework in PySpark that handled over <strong>10 million records per day</strong>, 
+                    storing <strong>5+ TB</strong> of data.<br />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                    o Engineered a PySpark-based reconciliation framework to harmonize data from disparate database systems. The reconciliation 
-              process culminates in the generation of comprehensive data reports distributed to end-users. This strategic initiative ensures 
-              data integrity and provides stakeholders with accurate, actionable insights.<br />
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                    o Successfully migrated existing Informatica/Pentaho pipelines to leverage the PySpark ETL framework. This migration resulted in 
-              a remarkable 5x reduction in runtime, significantly enhancing the efficiency and speed of data processing workflows. This 
-              transition underscores a commitment to modernizing and optimizing data processing infrastructure. <br />
+                    o I migrated legacy Informatica and Pentaho jobs into this new system—this reduced runtime from 45 minutes to 
+                    just 4 (<strong>11x speedup</strong>), while adding schema validation and automated alerts to catch issues proactively.<br />
                     </ListGroup.Item>
                 </ListGroup>
-              <b>🏆Accolade(s):</b> Execution excellence (Q4 2020)
+              <b>🏆Accolade(s):</b> Execution excellence (Q4 2020) for outstanding delivery in cross-functional initiatives.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

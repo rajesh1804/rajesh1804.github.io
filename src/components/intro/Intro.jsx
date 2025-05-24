@@ -17,8 +17,7 @@ function Intro() {
                             {/* <Card.Img variant="top" src="assets/pic.png" /> */}
                             <Card.Body>
                                 <div className="imgContainer">
-                                    {/* <img src="assets/pic.jpg" alt="" /> */}
-                                    <Image src="assets/pic.jpeg" rounded/>
+                                    <Image src="assets/pic.jpeg" rounded />
                                 </div>
                             </Card.Body>
                         </Card>
