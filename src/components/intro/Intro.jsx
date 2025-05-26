@@ -48,7 +48,6 @@ function Intro() {
                 <Row>
                     <Col>
                         <Card border="light">
-                            {/* <Card.Img variant="top" src="assets/pic.png" /> */}
                             <Card.Body>
                                 <div className="imgContainer">
                                     <Image src="assets/pic.jpeg" rounded />
