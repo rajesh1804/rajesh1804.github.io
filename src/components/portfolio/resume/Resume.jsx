@@ -8,8 +8,7 @@ export default function Resume(){
         <Card border="secondary" style={{backgroundColor: 'transparent'}}>
           <Card.Body>
             🔗
-            <Card.Link href="/assets/RajeshM_Resume_Website.pdf">
-            {/* <Card.Link href="https://in.linkedin.com/in/rajesh1804"> */}
+            <Card.Link href="/assets/RajeshM_Resume_Website.pdf" target="_blank" rel="noopener noreferrer">
               Resume.pdf
             </Card.Link>
           </Card.Body>

@@ -11,7 +11,7 @@ export default function Footer(){
   return(
     <Navbar expand="lg" variant="light" style={{backgroundColor: 'rgb(236,249,254)'}}>
       <Container>
-        <Navbar.Brand href="#home">© Rajesh 2025😎</Navbar.Brand>
+        <Navbar.Brand href="#intro">© Rajesh 2025😎</Navbar.Brand>
           <Nav className="me-auto">
           </Nav>
           <Nav>
@@ -21,7 +21,7 @@ export default function Footer(){
             <Nav.Link href="https://in.linkedin.com/in/rajesh1804" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} className="appLogo" alt="LinkedIn" />
             </Nav.Link>
-            <Nav.Link href="#home">
+            <Nav.Link href="#intro">
               <img src={uparrow} className="appLogo" alt="UpArrow" />
             </Nav.Link>
           </Nav>

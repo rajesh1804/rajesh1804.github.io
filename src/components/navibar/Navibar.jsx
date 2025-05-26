@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navibar() {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="light" fixed="top" style={{backgroundColor: 'rgb(0, 136, 200)'}}>
+        <Navbar collapseOnSelect expand="lg" variant="light" fixed="top" style={{backgroundColor: 'rgb(111, 209, 255)'}}>
             <Container>
                 <Navbar.Brand href="#home">Rajesh Marudhachalam</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

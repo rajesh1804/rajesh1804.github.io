@@ -9,7 +9,7 @@ function About() {
     return (
         <Container id="about">
         <Card border="light" style={{backgroundColor: 'transparent'}}>
-          <Card.Header as="h1" style={{backgroundColor: 'rgb(0, 136, 200)'}}>👋About</Card.Header>
+          <Card.Header as="h1" style={{backgroundColor: 'rgb(111, 209, 255)'}}>👋About</Card.Header>
           <Card.Body>
             <Card.Text>
             <p>

@@ -15,7 +15,7 @@ function Portfolio() {
     return (
         <Container id="portfolio">
         <Card border="light" style={{backgroundColor: 'transparent'}}>
-          <Card.Header as="h1" style={{backgroundColor: 'rgb(0, 136, 200)'}}>🧠Portfolio</Card.Header>
+          <Card.Header as="h1" style={{backgroundColor: 'rgb(111, 209, 255)'}}>🧠Portfolio</Card.Header>
           <Card.Body>
             <Row>
                 <Fulltime />
