@@ -17,7 +17,7 @@ async function main() {
     execSync(`npm version ${bumpType} --no-git-tag-version`, { stdio: 'inherit' });
 
     // 🔄 Commit and push version bump
-    execSync('git add package.json', { stdio: 'inherit' });
+    execSync('git add package.json package-lock.json', { stdio: 'inherit' });
     execSync('git commit -m "bump version"', { stdio: 'inherit' });
     execSync('git push', { stdio: 'inherit' });
 
