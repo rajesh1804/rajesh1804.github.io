@@ -1,0 +1,19 @@
+.portfolio-card {
+  background-color: transparent;
+}
+
+.portfolio-header {
+  background-color: var(--heading-bg-color);
+}
+
+.portfolio-sub-header {
+  background-color: var(--sub-heading-bg-color);
+}
+
+.spacer {
+  height: 1.5rem;
+
+  @media (max-width: 768px) {
+    height: 1rem;
+  }
+}

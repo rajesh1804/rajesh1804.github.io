@@ -1,9 +1,10 @@
 import {Card, Accordion, ListGroup} from 'react-bootstrap';
+import './fulltime.scss';
 
 export default function Fulltime(){
   return(
-    <Card border="light" style={{backgroundColor: 'transparent'}} id="work">
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>👨‍💻Full-time</Card.Header>
+    <Card border="light" className="fulltime-card" id="work">
+      <Card.Header as="h1" className="fulltime-header">👨‍💻Full-time</Card.Header>
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
@@ -23,7 +24,7 @@ export default function Fulltime(){
                     </ListGroup.Item>
               </ListGroup>
             </Accordion.Body>
-            <hr />
+            {/* <hr /> */}
             <Accordion.Body>
               <strong>Designation: </strong>Data Scientist<br />
               <strong>Duration: </strong>January 2024 - July 2024<br />
@@ -37,6 +38,7 @@ export default function Fulltime(){
                 </ListGroup>
             </Accordion.Body>
           </Accordion.Item>
+
           <Accordion.Item eventKey="1">
             <Accordion.Header><strong>JP Morgan Chase </strong> &nbsp; (Bangalore, India)</Accordion.Header>
             <Accordion.Body>

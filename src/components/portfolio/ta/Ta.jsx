@@ -1,34 +1,32 @@
-import {Card, Accordion} from 'react-bootstrap';
-import ListGroup from 'react-bootstrap/ListGroup';
+import { Card, Accordion, ListGroup } from 'react-bootstrap';
+import './ta.scss';
 
-export default function Ta(){
-  return(
-    <Card border="light" style={{backgroundColor: 'transparent'}} id="work">
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>🧑‍🏫Teaching Assistanship</Card.Header>
+export default function Ta() {
+  return (
+    <Card border="light" className="ta-card" id="work">
+      <Card.Header as="h1" className="ta-header">🧑‍🏫Teaching Assistantship</Card.Header>
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header><strong>University of Toronto</strong> &nbsp; (Toronto, Canada) </Accordion.Header>
+            <Accordion.Header>
+              <strong>University of Toronto</strong> &nbsp; (Toronto, Canada)
+            </Accordion.Header>
             <Accordion.Body>
               <strong>Designation: </strong>Teaching Assistant - CSC301 (Introduction to Software Engineering)<br />
-              <strong>Duration: </strong>September 2022 - December 2022, January 2023 - April 2023, September 2023 - December 2023, January 2024 - April 2024<br /> 
+              <strong>Duration: </strong>Sept 2022 - Dec 2022, Jan 2023 - Apr 2023, Sept 2023 - Dec 2023, Jan 2024 - Apr 2024<br />
               <strong>Description: </strong><br />
-                <ListGroup variant='flush'>
-                    <ListGroup.Item>
-                    o Took charge of organizing and leading tutorials for a diverse group of 50+ students, imparting knowledge and insights into 
-              various aspects of software development and engineering. These interactive sessions aimed to foster a comprehensive 
-              understanding of software development principles and practices.<br />
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                    o Assumed a leadership role in managing and advising multiple groups, each comprising 50+ students, on real-world software 
-              engineering projects. Provided mentorship and expertise to ensure the successful execution of projects, fostering a 
-              collaborative and learning-focused environment. <br />
-                    </ListGroup.Item>
-                </ListGroup>
+              <ListGroup variant='flush'>
+                <ListGroup.Item>
+                  o Led tutorials for 50+ students, delivering insights on software engineering principles to ensure a deep understanding of development practices.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  o Mentored and advised student teams on real-world projects, fostering a collaborative, results-oriented learning environment.
+                </ListGroup.Item>
+              </ListGroup>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
       </Card.Body>
     </Card>
-  )
+  );
 }

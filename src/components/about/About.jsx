@@ -3,15 +3,15 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
-// import './about.scss';
+import './about.scss'; // ✅ Import the new CSS file
 
 function About() {
-    return (
-        <Container id="about">
-        <Card border="light" style={{backgroundColor: 'transparent'}}>
-          <Card.Header as="h1" style={{backgroundColor: 'rgb(111, 209, 255)'}}>👋About</Card.Header>
-          <Card.Body>
-            <Card.Text>
+  return (
+    <Container id="about">
+      <Card border="light" className="bg-transparent">
+        <Card.Header as="h1" className="main-heading">👋About</Card.Header>
+        <Card.Body>
+          <Card.Text>
             <p>
               I’m a <strong>Data Scientist</strong> with a deep passion for building AI systems that go beyond experimentation—systems that solve real business problems at scale.
             </p>
@@ -33,49 +33,46 @@ function About() {
             <p>
               <strong>Let’s connect</strong> if you’re working at the intersection of <em>machine learning, data engineering, and real-world impact</em>.
             </p>
-            
-            
-            </Card.Text>
-            <Row>
-              <Col>
-                <Card border="light" className="text-center" style={{backgroundColor: 'transparent'}}>
-                  <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>📁Interests</Card.Header>
-                  <Card.Body>
-                    <Card.Text>
-                      <strong>
+          </Card.Text>
+          <Row>
+            <Col>
+              <Card border="light" className="text-center bg-transparent">
+                <Card.Header as="h1" className="sub-heading">📁Interests</Card.Header>
+                <Card.Body>
+                  <Card.Text>
+                    <strong>
                       <ListGroup variant="flush" as="ul">
-                        <ListGroup.Item as="li">LLMs & Retrieval-Augmented Generation (RAG) </ListGroup.Item>
+                        <ListGroup.Item as="li">LLMs & Retrieval-Augmented Generation (RAG)</ListGroup.Item>
                         <ListGroup.Item as="li">Scalable Machine Learning Systems</ListGroup.Item>
                         <ListGroup.Item as="li">ML Infrastructure & MLOps</ListGroup.Item>
                         <ListGroup.Item as="li">Time Series Forecasting & Anomaly Detection</ListGroup.Item>
                       </ListGroup>
-                      </strong>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                <Card border="light" className="text-center" style={{backgroundColor: 'transparent'}}>
-                  <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>🏏Hobbies</Card.Header>
-                  <Card.Body>
-                    <Card.Text>
-                      <strong>
+                    </strong>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card border="light" className="text-center bg-transparent">
+                <Card.Header as="h1" className="sub-heading">🏏Hobbies</Card.Header>
+                <Card.Body>
+                  <Card.Text>
+                    <strong>
                       <ListGroup variant="flush" as="ul">
                         <ListGroup.Item as="li">Open World Gaming</ListGroup.Item>
                         <ListGroup.Item as="li">Cricket</ListGroup.Item>
                         <ListGroup.Item as="li">Binge watching TV shows</ListGroup.Item>
                       </ListGroup>
-                      </strong>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </Card.Body>
-        </Card>
-        </Container>
-    );
-  }
-  
-  export default About;
-  
+                    </strong>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </Card.Body>
+      </Card>
+    </Container>
+  );
+}
+
+export default About;

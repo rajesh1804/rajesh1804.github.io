@@ -10,52 +10,35 @@ import Projects from './projects/Projects';
 import Resume from './resume/Resume';
 import Education from './education/Education';
 import Testimonials from './testimonials/Testimonials';
+import './portfolio.scss'; // 👈 SCSS import
 
 function Portfolio() {
     return (
         <Container id="portfolio">
-        <Card border="light" style={{backgroundColor: 'transparent'}}>
-          <Card.Header as="h1" style={{backgroundColor: 'rgb(111, 209, 255)'}}>🧠Portfolio</Card.Header>
-          <Card.Body>
-            <Row>
-                <Fulltime />
-            </Row>
-            <br />
-            <Row>
-                <Internships />
-            </Row>
-            <br />
-            <Row>
-                <Ta />
-            </Row>
-            <br />
-            <Row>
-                <Education />
-            </Row>
-            <br />
-            <Row>
-                <Publications />
-            </Row>
-            <br />
-            <Row>
-                <Accolades />
-            </Row>
-            <br />
-            <Row>
-                <Projects />
-            </Row>
-            <br />
-            <Row>
-                <Testimonials />
-            </Row>
-            <br />
-            <Row>
-                <Resume />
-            </Row>
-        </Card.Body>
-        </Card>
+            <Card border="light" className="portfolio-card">
+                <Card.Header as="h1" className="portfolio-header">🧠Portfolio</Card.Header>
+                <Card.Body>
+                    <Row><Fulltime /></Row>
+                    <div className="spacer" />
+                    <Row><Internships /></Row>
+                    <div className="spacer" />
+                    <Row><Ta /></Row>
+                    <div className="spacer" />
+                    <Row><Education /></Row>
+                    <div className="spacer" />
+                    <Row><Publications /></Row>
+                    <div className="spacer" />
+                    <Row><Accolades /></Row>
+                    <div className="spacer" />
+                    <Row><Projects /></Row>
+                    <div className="spacer" />
+                    <Row><Testimonials /></Row>
+                    <div className="spacer" />
+                    <Row><Resume /></Row>
+                </Card.Body>
+            </Card>
         </Container>
     );
-  }
-  
-  export default Portfolio;
+}
+
+export default Portfolio;

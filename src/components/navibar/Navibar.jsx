@@ -2,12 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import './navibar.scss'; // 👈 Import the SCSS file
 
 function Navibar() {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="light" fixed="top" style={{backgroundColor: 'rgb(111, 209, 255)'}}>
+        <Navbar collapseOnSelect expand="lg" variant="light" fixed="top" className="navibar">
             <Container>
-                <Navbar.Brand href="#home">Rajesh Marudhachalam</Navbar.Brand>
+                <Navbar.Brand href="#intro">Rajesh Marudhachalam</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="justify-content-end">
                     <Nav className="me-auto"></Nav>
@@ -17,29 +18,22 @@ function Navibar() {
                         </Nav.Link>
 
                         <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#work" style={{color: 'rgb(8,129,208'}}>
+                            <NavDropdown.Item href="#work" className="dropdown-item">
                                 Work
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#education" style={{color: 'rgb(8,129,208'}}>
+                            <NavDropdown.Item href="#education" className="dropdown-item">
                                 Education
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#accolades" style={{color: 'rgb(8,129,208'}}>
+                            <NavDropdown.Item href="#accolades" className="dropdown-item">
                                 Accolades
                             </NavDropdown.Item>
-                            {/* <NavDropdown.Item href="#" style={{color: 'rgb(8,129,208'}}>
-                                Skills
-                            </NavDropdown.Item> */}
-                            <NavDropdown.Item href="#projects" style={{color: 'rgb(8,129,208'}}>
+                            <NavDropdown.Item href="#projects" className="dropdown-item">
                                 Projects
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#testimonials" style={{color: 'rgb(8,129,208'}}>
+                            <NavDropdown.Item href="#testimonials" className="dropdown-item">
                                 Testimonials
                             </NavDropdown.Item>
                         </NavDropdown>
-                        
-                        {/* <Nav.Link href="#testimonials">
-                            Testimonials
-                        </Nav.Link> */}
 
                         <Nav.Link href="#resume">
                             Resume
@@ -53,6 +47,6 @@ function Navibar() {
             </Container>
         </Navbar>
     );
-  }
-  
-  export default Navibar;
+}
+
+export default Navibar;

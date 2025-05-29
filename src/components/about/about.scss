@@ -1,10 +1,22 @@
-ul{
-    list-style-type:none;
-  
-    li{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+/* about.css */
+
+.bg-transparent {
+  background-color: transparent !important;
 }
-  
+
+#about .card-header.main-heading {
+  background-color: var(--heading-bg-color);
+}
+
+#about .card-header.sub-heading {
+  background-color: var(--sub-heading-bg-color);
+}
+
+#about .card,
+#about .card-body {
+  background-color: transparent;
+}
+
+#about .text-center {
+  text-align: center;
+}

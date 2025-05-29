@@ -1,51 +1,49 @@
-.intro{
+/* intro.scss */
+
+.intro {
   height: 100vh;
 }
 
-.intro2{
+.intro2 {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.imgContainer{
-    background-color: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: scale(1.5);
-  
-    img{
-      height: 50vh;
-    }
-  }
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1.25);
 
-.introText{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  
-    .introContainer{
-      background-color: white;
-      display: grid;
-      align-items: center;
-      justify-content: center;
-  
-      h2{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-  
-      h1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: rgb(8,129,208);
-      }
-    }
+  img {
+    height: 50vh;
+  }
+}
+
+.introText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.introContainer {
+  background-color: transparent;
+  display: grid;
+  place-items: center;
+}
+
+.introContainer h2,
+.introContainer h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introContainer h1 {
+  color: var(--text-color);
 }
 
 .blinking-cursor {
@@ -53,7 +51,7 @@
   margin-left: 4px;
   width: 1ch;
   animation: blink 1s steps(1) infinite;
-  color: '#007bff';
+  color: #007bff;
   font-weight: bold;
 }
 
