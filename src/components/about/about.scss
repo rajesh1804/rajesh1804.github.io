@@ -1,22 +1,123 @@
-/* about.css */
+/* about.scss */
 
 .bg-transparent {
   background-color: transparent !important;
 }
 
-#about .card-header.main-heading {
-  background-color: var(--heading-bg-color);
+#about {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  .card-header.main-heading {
+    background-color: var(--heading-bg-color);
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .card-header.sub-heading {
+    background-color: var(--sub-heading-bg-color);
+    font-size: 1.75rem;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .card,
+  .card-body {
+    background-color: transparent;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .card-text {
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .list-group-item {
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+  }
 }
 
-#about .card-header.sub-heading {
-  background-color: var(--sub-heading-bg-color);
+/* Responsive styles */
+
+/* Medium devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+  #about {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    .card-header.main-heading {
+      font-size: 2rem;
+      padding: 0.75rem 1rem;
+      text-align: center;
+    }
+
+    .card-header.sub-heading {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+      text-align: center;
+    }
+
+    .card-text {
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .card-body {
+      padding: 1rem;
+    }
+
+    .list-group-item {
+      font-size: 0.95rem;
+      padding: 0.6rem 1rem;
+    }
+  }
 }
 
-#about .card,
-#about .card-body {
-  background-color: transparent;
-}
+/* Small devices (phones, 576px and below) */
+@media (max-width: 576px) {
+  #about {
+    padding-left: 1rem;
+    padding-right: 1rem;
 
-#about .text-center {
-  text-align: center;
+    .card-header.main-heading,
+    .card-header.sub-heading {
+      text-align: center;
+    }
+
+    .card-header.main-heading {
+      font-size: 1.5rem;
+      padding: 0.5rem 0.75rem;
+    }
+
+    .card-header.sub-heading {
+      font-size: 1.25rem;
+      padding: 0.4rem 0.75rem;
+    }
+
+    .card-text {
+      p {
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    .list-group-item {
+      font-size: 0.9rem;
+      padding: 0.5rem 0.75rem;
+    }
+
+    /* Stack columns vertically */
+    .row > .col {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      margin-bottom: 1rem;
+    }
+  }
 }

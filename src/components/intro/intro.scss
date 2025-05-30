@@ -2,6 +2,16 @@
 
 .intro {
   height: 100vh;
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 2rem 1rem 1rem 1rem;
+    padding-top: calc(var(--navbar-height, 56px) + 1rem); /* Adjust if your navbar height differs */
+  }
+
+  @media (max-width: 576px) {
+    padding-top: calc(var(--navbar-height, 56px) + 0.75rem);
+  }
 }
 
 .intro2 {
@@ -9,16 +19,43 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+  }
 }
 
 .imgContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: scale(1.25);
+  transform: scale(1.5);
 
   img {
     height: 50vh;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  @media (max-width: 992px) {
+    transform: scale(1);
+    img {
+      height: 40vh;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 1.5rem;
+    img {
+      height: 30vh;
+    }
+  }
+
+  @media (max-width: 576px) {
+    img {
+      height: 25vh;
+    }
   }
 }
 
@@ -27,23 +64,54 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+
+  @media (max-width: 768px) {
+    height: auto;
+    width: 100%;
+  }
 }
 
 .introContainer {
   background-color: transparent;
   display: grid;
   place-items: center;
-}
 
-.introContainer h2,
-.introContainer h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  h2,
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
 
-.introContainer h1 {
-  color: var(--text-color);
+  h2 {
+    font-size: 2rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  h1 {
+    color: var(--text-color);
+    font-size: 4rem;
+
+    @media (max-width: 992px) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 2rem;
+    }
+  }
 }
 
 .blinking-cursor {
@@ -56,10 +124,12 @@
 }
 
 @keyframes blink {
-  0%, 50% {
+  0%,
+  50% {
     opacity: 1;
   }
-  51%, 100% {
+  51%,
+  100% {
     opacity: 0;
   }
 }

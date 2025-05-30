@@ -1,20 +1,25 @@
-import {Card, Accordion} from 'react-bootstrap';
+import { Card, Accordion } from 'react-bootstrap';
+import './accolades.scss';
 
-export default function Accolades(){
-  return(
-    <Card border="light" style={{backgroundColor: 'transparent'}} id="accolades">
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>🏆Accolades</Card.Header>
+export default function Accolades() {
+  return (
+    <Card border="light" className="accolades-card" id="accolades">
+      <Card.Header as="h1" className="accolades-header">🏆Accolades</Card.Header>
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header><strong>Execution excellence - SEP Engineers (Q1 2022)</strong> &nbsp; JP Morgan Chase</Accordion.Header>
+            <Accordion.Header>
+              <strong>Execution excellence - SEP Engineers (Q1 2022)</strong> &nbsp; JP Morgan Chase
+            </Accordion.Header>
             <Accordion.Body>
               Recognised under the category of 'Execution excellence' for my work as a Software Engineer in the Student Engineer Program (SEP).
               This happens once every quater, where a select number of Engineers in the SEP program are recognised for their work at the firm<br />
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header><strong>Execution excellence - SEP Engineers (Q4 2020)</strong> &nbsp; JP Morgan Chase</Accordion.Header>
+            <Accordion.Header>
+              <strong>Execution excellence - SEP Engineers (Q4 2020)</strong> &nbsp; JP Morgan Chase
+            </Accordion.Header>
             <Accordion.Body>
               Recognised under the category of 'Execution excellence' for my work as a Software Engineer in the Student Engineer Program (SEP).
               This happens once every quater, where a select number of Engineers in the SEP program are recognised for their work at the firm<br />
@@ -51,5 +56,5 @@ export default function Accolades(){
         </Accordion>
       </Card.Body>
     </Card>
-  )
+  );
 }

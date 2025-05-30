@@ -1,11 +1,12 @@
 import {Card, Accordion} from 'react-bootstrap';
+import './projects.scss';
 
 export default function Projects(){
   return(
-    <Card border="light" style={{backgroundColor: 'transparent'}} id="projects">
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>💻Projects</Card.Header>
+    <Card border="light" className="projects-card" id="projects">
+      <Card.Header as="h1" className="projects-header">💻Projects</Card.Header>
       <Card.Body>
-        <Accordion flush>
+        <Accordion flush className="projects-accordion">
         <Accordion.Item eventKey="0">
             <Accordion.Header><strong>Investigating Uncertainty in Ensemble Methods</strong> &nbsp; </Accordion.Header>
             <Accordion.Body>

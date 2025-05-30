@@ -1,16 +1,19 @@
-import {Card, Accordion} from 'react-bootstrap';
+import { Card, Accordion } from 'react-bootstrap';
+import './publications.scss';
 
-export default function Publications(){
-  return(
-    <Card border="light" style={{backgroundColor: 'transparent'}}>
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>📜Publications</Card.Header>
+export default function Publications() {
+  return (
+    <Card border="light" className="publications-card">
+      <Card.Header as="h1" className="publications-header">📜Publications</Card.Header>
       <Card.Body>
         <Accordion flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header><strong>YouTube Video Ranking: An NLP based system</strong> &nbsp; (IJRTE)</Accordion.Header>
+            <Accordion.Header>
+              <strong>YouTube Video Ranking: An NLP based system</strong> &nbsp; (IJRTE)
+            </Accordion.Header>
             <Accordion.Body>
               <strong>Published: </strong>November 2019<br />
-              🔗 <a href="https://www.ijrte.org/wp-content/uploads/papers/v8i4/D7303118419.pdf" target="_blank" rel="noopener noreferrer">Link</a><br/ >
+              🔗 <a href="https://www.ijrte.org/wp-content/uploads/papers/v8i4/D7303118419.pdf" target="_blank" rel="noopener noreferrer">Link</a><br />
               <strong>Abstract: </strong><br />
               YouTube is an acclaimed video information source on the web among various social media sites, where users are sharing, commenting and
               liking/dis-liking the video along with the continuous uploading of videos in real-time.
@@ -50,5 +53,5 @@ export default function Publications(){
         </Accordion>
       </Card.Body>
     </Card>
-  )
+  );
 }

@@ -1,9 +1,10 @@
 import {Card} from 'react-bootstrap';
+import './resume.scss';
 
 export default function Resume(){
   return(
-    <Card border="light" style={{backgroundColor: 'transparent'}} id="resume">
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>📝Resume</Card.Header>
+    <Card border="light" className="resume-card" id="resume">
+      <Card.Header as="h1" className="resume-header">📝Resume</Card.Header>
       <Card.Body>
         <Card border="secondary" style={{backgroundColor: 'transparent'}}>
           <Card.Body>

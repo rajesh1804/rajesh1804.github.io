@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function Footer(){
   return(
-    <Navbar expand="lg" variant="light" style={{backgroundColor: 'rgb(236,249,254)'}}>
+    <Navbar expand="lg" variant="light" className="footer-navbar">
       <Container>
         <Navbar.Brand href="#intro">© Rajesh 2025😎</Navbar.Brand>
           <Nav className="me-auto">

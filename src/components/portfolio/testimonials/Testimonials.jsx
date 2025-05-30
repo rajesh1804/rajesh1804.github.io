@@ -1,9 +1,10 @@
 import {Card, Accordion} from 'react-bootstrap';
+import './testimonials.scss';
 
 export default function Testimonials(){
   return(
-    <Card border="light" style={{backgroundColor: 'transparent'}} id="testimonials">
-      <Card.Header as="h1" style={{backgroundColor: 'rgb(217,242,254)'}}>❝❞ Testimonials</Card.Header>
+    <Card border="light" className="testimonials-card" id="testimonials">
+      <Card.Header as="h1" className="testimonials-header">❝❞ Testimonials</Card.Header>
       <Card.Body as="p">
         <Accordion flush>
           <Accordion.Item eventKey="0">
