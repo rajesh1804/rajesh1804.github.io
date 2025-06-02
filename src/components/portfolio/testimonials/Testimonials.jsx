@@ -4,7 +4,7 @@ import './testimonials.scss';
 export default function Testimonials(){
   return(
     <Card border="light" className="testimonials-card" id="testimonials">
-      <Card.Header as="h1" className="testimonials-header">❝❞ Testimonials</Card.Header>
+      <Card.Header as="h1" className="testimonials-header">❛❛❞ Testimonials</Card.Header>
       <Card.Body as="p">
         <Accordion flush>
           <Accordion.Item eventKey="0">
