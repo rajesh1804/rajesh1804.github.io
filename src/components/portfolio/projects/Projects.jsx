@@ -8,7 +8,7 @@ export default function Projects(){
       <Card.Body>
         <Accordion flush className="projects-accordion">
         <Accordion.Item eventKey="0">
-            <Accordion.Header><strong>Investigating Uncertainty in Ensemble Methods</strong> &nbsp; </Accordion.Header>
+            <Accordion.Header><strong>Quantifying Uncertainty in Ensemble Learning </strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
               <strong>Duration: </strong>October 2022 - December 2022<br />
               <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt=""/>
@@ -32,7 +32,7 @@ export default function Projects(){
             </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-            <Accordion.Header><strong>Comparing Query Strategies in Active Learning for Natural Language Processing</strong> &nbsp; </Accordion.Header>
+            <Accordion.Header><strong>Active Learning Strategies for NLP Classification</strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
               <strong>Duration: </strong>October 2022 - December 2022<br />
               <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt=""/>
