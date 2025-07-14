@@ -8,6 +8,36 @@ export default function Projects(){
       <Card.Body>
         <Accordion flush className="projects-accordion">
         <Accordion.Item eventKey="0">
+            <Accordion.Header><strong>GroceryGPT+ - Personalized LLM-Powered Product Search Engine</strong> &nbsp; </Accordion.Header>
+            <Accordion.Body>
+              <strong>Duration: </strong>October 2022 - December 2022<br />
+              <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt=""/>
+              <a href="https://github.com/rajesh1804/GroceryGPT" target="_blank" rel="noopener noreferrer">Github</a>
+              <br/ >
+              <strong>Description: </strong><br />
+                <h6>🚀 What it is:</h6>
+                <p>
+                  🛒 GroceryGPT+ is an AI-native product discovery engine that uses <strong>open-weight LLMs</strong> and <strong>semantic search</strong> to deliver personalized product recommendations — just like a private ChatGPT for shopping.
+                </p>
+                <h6>💡 Why it matters:</h6>
+                <p>
+                  Unlike traditional keyword search, this system understands <strong>natural language</strong>, captures <strong>user intent</strong>, and re-ranks results in real-time using <strong>LLM-based reasoning</strong> — dramatically improving relevance and user satisfaction.
+                </p>
+
+                <h6>🧠 Highlights:</h6>
+                <ul>
+                  <li>✅ <strong>LLM Reasoning:</strong> Uses free-tier OpenRouter LLMs to rerank search results with human-like judgment.</li>
+                  <li>✅ <strong>Personalization Engine:</strong> Dynamically learns from your past queries — no login required.</li>
+                  <li>✅ <strong>Startup-Safe:</strong> Gracefully degrades with fallback models when API limits are hit.</li>
+                  <li>✅ <strong>Latent Vector Search:</strong> 5x more relevant than keyword match via MiniLM embeddings + Weaviate DB.</li>
+                  <li>✅ <strong>Smart Caching:</strong> File-based cache to persist best-performing models across sessions.</li>
+                  <li>✅ <strong>Lightning Fast:</strong> Model latency tracking + <code>@lru_cache</code> optimization for blazing speed.</li>
+                </ul>
+              <br />
+            </Accordion.Body>
+        </Accordion.Item>
+        
+        <Accordion.Item eventKey="0">
             <Accordion.Header><strong>Quantifying Uncertainty in Ensemble Learning </strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
               <strong>Duration: </strong>October 2022 - December 2022<br />
