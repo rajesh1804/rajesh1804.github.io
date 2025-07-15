@@ -12,7 +12,7 @@ export default function Projects(){
             <Accordion.Body>
               <strong>Duration: </strong>October 2022 - December 2022<br />
               <img src="https://img.icons8.com/?size=25&id=XVNvUWCvvlD9&format=png&color=000000" alt=""/>
-              <a href="https://huggingface.co/spaces/rajesh1804/GroceryGPT" target="_blank" rel="noopener noreferrer">Article</a>  
+              <a href="https://medium.com/@rajesh1804/grocerygpt-how-i-built-a-personalized-grocery-search-engine-with-llms-vector-dbs-zero-cloud-fbacddf0feef" target="_blank" rel="noopener noreferrer">Article</a>  
               &nbsp;
               <img src="https://img.icons8.com/?size=25&id=sop9ROXku5bb&format=png&color=000000" alt=""/>
               <a href="https://huggingface.co/spaces/rajesh1804/GroceryGPT" target="_blank" rel="noopener noreferrer">Live App</a>
