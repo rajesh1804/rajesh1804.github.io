@@ -11,8 +11,14 @@ export default function Projects(){
             <Accordion.Header><strong>GroceryGPT+ - Personalized LLM-Powered Product Search Engine</strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
               <strong>Duration: </strong>October 2022 - December 2022<br />
+              <img src="https://img.icons8.com/?size=25&id=XVNvUWCvvlD9&format=png&color=000000" alt=""/>
+              <a href="https://huggingface.co/spaces/rajesh1804/GroceryGPT" target="_blank" rel="noopener noreferrer">Article</a>  
+              &nbsp;
+              <img src="https://img.icons8.com/?size=25&id=sop9ROXku5bb&format=png&color=000000" alt=""/>
+              <a href="https://huggingface.co/spaces/rajesh1804/GroceryGPT" target="_blank" rel="noopener noreferrer">Live App</a>
+              &nbsp;
               <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt=""/>
-              <a href="https://github.com/rajesh1804/GroceryGPT" target="_blank" rel="noopener noreferrer">Github</a>
+              <a href="https://github.com/rajesh1804/GroceryGPT" target="_blank" rel="noopener noreferrer">Github</a> &nbsp;
               <br/ >
               <strong>Description: </strong><br />
                 <h6>🚀 What it is:</h6>
