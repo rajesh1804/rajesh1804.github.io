@@ -10,7 +10,7 @@ export default function Projects(){
         <Accordion.Item eventKey="0">
             <Accordion.Header><strong>GroceryGPT+ - Personalized LLM-Powered Product Search Engine</strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
-              <strong>Duration: </strong>October 2022 - December 2022<br />
+              <strong>Duration: </strong>2025<br />
               <img src="https://img.icons8.com/?size=25&id=XVNvUWCvvlD9&format=png&color=000000" alt=""/>
               <a href="https://medium.com/@rajesh1804/grocerygpt-how-i-built-a-personalized-grocery-search-engine-with-llms-vector-dbs-zero-cloud-fbacddf0feef" target="_blank" rel="noopener noreferrer">Article</a>  
               &nbsp;
