@@ -8,7 +8,42 @@ export default function Projects(){
       <Card.Body>
         <Accordion flush className="projects-accordion">
         <Accordion.Item eventKey="0">
-            <Accordion.Header><strong>GroceryGPT+ - Personalized LLM-Powered Product Search Engine</strong> &nbsp; </Accordion.Header>
+            <Accordion.Header><strong>RideCastAI : Real-Time ETA & Fare Prediction Engine for Ride-Hailing</strong> &nbsp; </Accordion.Header>
+            <Accordion.Body>
+              <strong>Duration: </strong>2025<br />
+              <img src="https://img.icons8.com/?size=25&id=XVNvUWCvvlD9&format=png&color=000000" alt=""/>
+              <a href="https://rajesh1804.medium.com/ridecastai-real-time-dynamic-pricing-eta-prediction-engine-for-ride-hailing-apps-2d4e3b8b57a5" target="_blank" rel="noopener noreferrer">Article</a>  
+              &nbsp;
+              <img src="https://img.icons8.com/?size=25&id=sop9ROXku5bb&format=png&color=000000" alt=""/>
+              <a href="https://huggingface.co/spaces/rajesh1804/RideCastAI" target="_blank" rel="noopener noreferrer">Live App</a>
+              &nbsp;
+              <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt=""/>
+              <a href="https://github.com/rajesh1804/RideCastAI" target="_blank" rel="noopener noreferrer">Github</a> &nbsp;
+              <br />
+              <strong>Description: </strong><br />
+              <h6>🚀 What it is:</h6>
+              <p>
+                🚕 RideCastAI is a real-time ML-powered prediction engine built for ride-hailing platforms like Uber or Lyft. It predicts trip <strong>ETA</strong> and <strong>fare ranges (P10, P50, P90)</strong> using real-world NYC data — simulating demand, uncertainty, and latency.
+              </p>
+              <h6>💡 Why it matters:</h6>
+              <p>
+                Most pricing engines are black-box and static. RideCastAI showcases how <strong>spatio-temporal ML</strong> and <strong>quantile regression</strong> can power real-time, user-facing predictions — bridging research with deployment.
+              </p>
+              <h6>🧠 Highlights:</h6>
+              <ul>
+                <li>✅ <strong>ETA Prediction:</strong> Uses <code>XGBoost</code> with temporal & engineered features for fast, robust ETA forecasts.</li>
+                <li>✅ <strong>Fare Uncertainty:</strong> Predicts P10, P50, and P90 quantiles using <code>Quantile Regression</code> — confidence-aware pricing.</li>
+                <li>✅ <strong>Live Latency Logging:</strong> Tracks and displays model prediction times directly in the UI — a rare production insight.</li>
+                <li>✅ <strong>Simulated Demand Heatmap:</strong> Generates geospatial demand visuals based on pickup time/day — built with Plotly.</li>
+                <li>✅ <strong>End-to-End Deployment:</strong> Packaged with GitHub model hosting + Hugging Face Spaces — fully open source.</li>
+                <li>✅ <strong>Feature-Rich:</strong> Leverages rush-hour flags, sine/cosine time encodings, and weekend indicators to boost accuracy.</li>
+              </ul>
+              <br />
+            </Accordion.Body>
+          </Accordion.Item>
+
+        <Accordion.Item eventKey="0">
+            <Accordion.Header><strong>GroceryGPT+ : Personalized LLM-Powered Product Search Engine</strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
               <strong>Duration: </strong>2025<br />
               <img src="https://img.icons8.com/?size=25&id=XVNvUWCvvlD9&format=png&color=000000" alt=""/>
