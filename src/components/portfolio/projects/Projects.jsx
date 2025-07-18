@@ -8,6 +8,41 @@ export default function Projects(){
       <Card.Body>
         <Accordion flush className="projects-accordion">
         <Accordion.Item eventKey="0">
+        <Accordion.Header><strong>StreamWiseAI : AI-Powered Movie Recommender & Retention Coach</strong> &nbsp; </Accordion.Header>
+        <Accordion.Body>
+          <strong>Duration: </strong>2025<br />
+          <img src="https://img.icons8.com/?size=25&id=XVNvUWCvvlD9&format=png&color=000000" alt=""/>
+          <a href="https://rajesh1804.medium.com/streamwiseai-an-ai-powered-movie-recommender-with-a-retention-coach-agent-b9b54319805f" target="_blank" rel="noopener noreferrer">Article</a>  
+          &nbsp;
+          <img src="https://img.icons8.com/?size=25&id=sop9ROXku5bb&format=png&color=000000" alt=""/>
+          <a href="https://huggingface.co/spaces/rajesh1804/StreamWiseAI" target="_blank" rel="noopener noreferrer">Live App</a>
+          &nbsp;
+          <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt=""/>
+          <a href="https://github.com/rajesh1804/StreamWiseAI" target="_blank" rel="noopener noreferrer">Github</a> &nbsp;
+          <br />
+          <strong>Description: </strong><br />
+          <h6>🚀 What it is:</h6>
+          <p>
+            🎬 StreamWiseAI is a Netflix-style AI recommender that combines <strong>semantic search</strong> with an <strong>LLM-powered Retention Coach Agent</strong> — all built on free-tier tools like Sentence-BERT and OpenRouter.
+          </p>
+          <h6>💡 Why it matters:</h6>
+          <p>
+            Most recommenders stop at "what to watch." StreamWiseAI answers "why you'll like it" — combining <strong>natural language embeddings</strong>, <strong>AI insights</strong>, and <strong>session-aware personalization</strong> for real user impact.
+          </p>
+          <h6>🧠 Highlights:</h6>
+          <ul>
+            <li>✅ <strong>Semantic Recommendations:</strong> Uses SBERT embeddings on movie metadata (title, overview, genre) for cosine-based discovery.</li>
+            <li>✅ <strong>LLM Agent Integration:</strong> Generates 1–2 line content insights to improve retention — powered by OpenRouter (free-tier Mistral-7B).</li>
+            <li>✅ <strong>Fuzzy Matching:</strong> Typos? No problem — robust fuzzy logic finds the right movie every time.</li>
+            <li>✅ <strong>Session Memory:</strong> Maintains watch history within the session to refine future suggestions.</li>
+            <li>✅ <strong>Latency-Aware:</strong> All inference is local + API retries using <code>tenacity</code> for real-world resilience.</li>
+            <li>✅ <strong>Fully Deployable:</strong> Lightweight architecture using Streamlit + Hugging Face Spaces — no GPU needed.</li>
+          </ul>
+          <br />
+        </Accordion.Body>
+      </Accordion.Item>
+
+        <Accordion.Item eventKey="1">
             <Accordion.Header><strong>RideCastAI : Real-Time ETA & Fare Prediction Engine for Ride-Hailing</strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
               <strong>Duration: </strong>2025<br />
@@ -42,7 +77,7 @@ export default function Projects(){
             </Accordion.Body>
           </Accordion.Item>
 
-        <Accordion.Item eventKey="0">
+        <Accordion.Item eventKey="2">
             <Accordion.Header><strong>GroceryGPT+ : Personalized LLM-Powered Product Search Engine</strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
               <strong>Duration: </strong>2025<br />
@@ -78,7 +113,7 @@ export default function Projects(){
             </Accordion.Body>
         </Accordion.Item>
         
-        <Accordion.Item eventKey="0">
+        <Accordion.Item eventKey="3">
             <Accordion.Header><strong>Quantifying Uncertainty in Ensemble Learning </strong> &nbsp; </Accordion.Header>
             <Accordion.Body>
               <strong>Duration: </strong>October 2022 - December 2022<br />
