@@ -2,6 +2,27 @@
 
 export const projects = [
   {
+    title: "ThreadNavigatorAI : Reddit-style Summarizer, Moderator & Reply Assistant (Agentic RAG)",
+    duration: "2025",
+    links: {
+      article: "https://rajesh1804.medium.com/threadnavigatorai-reddit-style-thread-summarizer-moderator-reply-assistant-powered-by-b4d52126c454",
+      live: "https://huggingface.co/spaces/rajesh1804/ThreadNavigatorAI",
+      github: "https://github.com/rajesh1804/ThreadNavigatorAI"
+    },
+    description: {
+      what: "ThreadNavigatorAI is a Reddit-style AI assistant that summarizes threads, flags bias/trolling, and suggests smart replies using multi-agent LangGraph workflows and OpenRouter LLMs.",
+      why: "Reddit-style threads are chaotic — this project demonstrates how AI agents can contextually navigate and moderate discussions in real-time using Agentic RAG.",
+      highlights: [
+        "Multi-agent pipeline using LangGraph + Mistral-7B via OpenRouter.",
+        "RAG using Sentence-BERT + Weaviate Cloud Vector DB.",
+        "LLM-powered moderation and sarcasm/trolling detection.",
+        "Smart Reddit-style reply generation with prompt injection guardrails.",
+        "Verbose latency tracking and retry logic via Tenacity.",
+        "Polished UI with Tabs, Demo Mode, and Sample Evaluations."
+      ]
+    }
+  },
+  {
     title: "StreamWiseAI : AI-Powered Movie Recommender & Retention Coach",
     duration: "2025",
     links: {
