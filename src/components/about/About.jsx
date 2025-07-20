@@ -13,27 +13,40 @@ function About() {
         <Card.Body>
           <Card.Text>
             <p>
-              I’m a <strong>Data Scientist</strong> with a deep passion for building AI systems that go beyond experimentation—systems that solve real business problems at scale.
+              I’m a <strong>Machine Learning Engineer</strong> who builds AI systems that go beyond the notebook — systems that are <em>deployed, fast, and impact-driven</em>.
             </p>
             <p>
-              My recent work centers around <strong>LLMs (Large Language Models)</strong> and <strong>Retrieval-Augmented Generation (RAG)</strong> architectures, where I’ve been exploring their application in network diagnostics, enterprise automation, and dynamic data interfaces. I’m particularly interested in bridging the gap between foundational models and production environments—making LLMs reliable, cost-efficient, and explainable in real-world systems.
+              I’ve developed and shipped <strong>4 full-stack ML/LLM applications</strong> across domains like personalized recommendation, real-time forecasting, semantic search, and agentic RAG — all deployed on <strong>Hugging Face Spaces</strong> using open-source, cost-efficient tooling.
             </p>
             <p>
-              With over <strong>4 years of industry experience</strong>, I’ve worn many hats: from designing big data pipelines that process <strong>10M+ daily records</strong>, to developing anomaly detection models with <strong>90%+ precision</strong>, to deploying machine learning services in cloud-native environments like <strong>AWS (EKS, S3, Lambda)</strong>. I’ve led initiatives that translated directly into <strong>operational efficiency gains</strong> and <strong>cost savings</strong>, all while collaborating cross-functionally with engineers, analysts, and product managers.
+              My recent work spans:
+              <ul>
+                <li>🧵 <strong>ThreadNavigatorAI</strong> – Reddit-style summarizer, moderator & reply assistant built with <strong>LangGraph</strong>, <strong>OpenRouter</strong>, and <strong>Weaviate</strong></li>
+                <li>🎬 <strong>StreamWiseAI</strong> – Netflix-style movie recommender + Retention Coach powered by <strong>RAG</strong></li>
+                <li>🚕 <strong>RideCastAI</strong> – Uber-style fare + ETA predictor with geospatial heatmaps and latency tracking</li>
+                <li>🛒 <strong>GroceryGPT+</strong> – Semantic grocery search engine using <strong>Sentence-BERT</strong> and LLM reranker</li>
+              </ul>
             </p>
             <p>
-              I hold a Master’s in Applied Computing from the <strong>University of Toronto</strong>, where I specialized in <strong>deep learning, neural networks, and scalable data systems</strong>. This academic foundation is reinforced by hands-on experience across tools like <strong>PySpark, TensorFlow, Keras, Scikit-learn, Hugging Face Transformers</strong>, and big data platforms such as <strong>Apache Spark, Trino, Hive, and Snowflake</strong>.
+              At <strong>BlueCat Networks</strong>, I built a <strong>RAG-based assistant</strong> that cut support triage time by 40%, architected <strong>time series models</strong> (ETS, ARIMA, STL) for predictive infrastructure planning, and deployed anomaly detection using <strong>weak supervision</strong> — outperforming traditional baselines.
             </p>
             <p>
-              Outside of work, I’m driven by curiosity. I frequently explore topics like <strong>weak supervision</strong>, <strong>zero-shot learning</strong>, and <strong>prompt engineering</strong>, and I enjoy staying on the cutting edge of ML trends—from fine-tuning LLMs with <strong>LoRA</strong> to experimenting with vector databases like <strong>FAISS</strong> and <strong>Weaviate</strong>.
+              Previously at <strong>JP Morgan Chase</strong>, I engineered high-throughput ETL systems using <strong>Spark, Kafka, and Snowflake</strong> to automate ingestion of 50M+ daily records, reducing pipeline runtime by 11x.
             </p>
             <p>
-              Currently, I’m looking to join a mission-driven team where I can help shape and ship intelligent systems—whether that’s enhancing personalization, accelerating automation, or building the ML infrastructure that powers tomorrow’s applications.
+              I hold a Master’s in Applied Computing from the <strong>University of Toronto</strong> and work fluently across <strong>Python, Hugging Face, LangGraph, OpenRouter, TensorFlow, PySpark, Docker, AWS</strong>, and modern LLM pipelines.
             </p>
             <p>
-              <strong>Let’s connect</strong> if you’re working at the intersection of <em>machine learning, data engineering, and real-world impact</em>.
+              I stay sharp by experimenting with <strong>LoRA fine-tuning</strong>, multi-agent workflows, and new ways to evaluate and deploy production-grade LLMs using <strong>RAG + vector DBs</strong> like <strong>FAISS</strong> and <strong>Weaviate</strong>.
+            </p>
+            <p>
+              🎯 I’m currently exploring senior roles in AI/ML where I can own and deploy intelligent systems that are fast, explainable, and scalable.
+            </p>
+            <p>
+              <strong>Let’s connect</strong> if you're building at the intersection of <em>machine learning, user experience, and real-world impact</em>.
             </p>
           </Card.Text>
+
           <Row>
             <Col>
               <Card border="light" className="text-center bg-transparent">
@@ -42,10 +55,12 @@ function About() {
                   <Card.Text>
                     <strong>
                       <ListGroup variant="flush" as="ul">
-                        <ListGroup.Item as="li">LLMs & Retrieval-Augmented Generation (RAG)</ListGroup.Item>
-                        <ListGroup.Item as="li">Scalable Machine Learning Systems</ListGroup.Item>
-                        <ListGroup.Item as="li">ML Infrastructure & MLOps</ListGroup.Item>
-                        <ListGroup.Item as="li">Time Series Forecasting & Anomaly Detection</ListGroup.Item>
+                        <ListGroup.Item as="li">LLM Architectures & Agentic RAG Workflows</ListGroup.Item>
+                        <ListGroup.Item as="li">Production-Ready ML & Recommender Systems</ListGroup.Item>
+                        <ListGroup.Item as="li">Time Series Forecasting & Real-Time Prediction</ListGroup.Item>
+                        <ListGroup.Item as="li">Vector Databases (Weaviate, FAISS) & Semantic Search</ListGroup.Item>
+                        <ListGroup.Item as="li">LLM Fine-Tuning (LoRA, PEFT) & Evaluation</ListGroup.Item>
+                        <ListGroup.Item as="li">LangGraph, OpenRouter, Hugging Face Transformers</ListGroup.Item>
                       </ListGroup>
                     </strong>
                   </Card.Text>
@@ -59,9 +74,12 @@ function About() {
                   <Card.Text>
                     <strong>
                       <ListGroup variant="flush" as="ul">
-                        <ListGroup.Item as="li">Open World Gaming</ListGroup.Item>
-                        <ListGroup.Item as="li">Cricket</ListGroup.Item>
-                        <ListGroup.Item as="li">Binge watching TV shows</ListGroup.Item>
+                        <ListGroup.Item as="li">Cricket 🏏 – lifelong fan, weekend player, and World Cup obsessive</ListGroup.Item>
+                        <ListGroup.Item as="li">Open World Gaming 🎮 – love exploring AI mechanics in games like GTA & RDR2</ListGroup.Item>
+                        <ListGroup.Item as="li">TV Show Bingeing 📺 – from sci-fi to courtroom dramas, I break down plot like a data flow</ListGroup.Item>
+                        <ListGroup.Item as="li">AI Podcast Listening 🎧 – regular listener of Latent Space, Practical AI, and Lex Fridman</ListGroup.Item>
+                        <ListGroup.Item as="li">Designing Clean UI/UX 💻 – streamlining user experiences in Streamlit & front-end tools</ListGroup.Item>
+                        <ListGroup.Item as="li">Reading Tech & Sci-Fi Books 📚 – from “The Almanack of Naval” to “Neuromancer”</ListGroup.Item>
                       </ListGroup>
                     </strong>
                   </Card.Text>
