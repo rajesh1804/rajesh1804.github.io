@@ -2,6 +2,27 @@
 
 export const projects = [
   {
+    title: "ThreadNavigatorAI 2.0 : Multi-Agent Reddit Analyzer with LLM-as-a-Judge",
+    duration: "2025",
+    links: {
+      article: "https://rajesh1804.medium.com/navigating-the-noise-how-i-built-a-multi-agent-reddit-analyzer-with-llm-as-a-judge-0458b33059ac",
+      live: "https://huggingface.co/spaces/rajesh1804/ThreadNavigatorAI2.0",
+      github: "https://github.com/rajesh1804/ThreadNavigatorAI2.0"
+    },
+    description: {
+      what: "ThreadNavigatorAI 2.0 is a modular, multi-agent AI system that analyzes Reddit threads by summarizing key insights, fact-checking user claims, and evaluating quality using LLM-as-a-Judge — all within a latency-aware Streamlit UI.",
+      why: "Social platforms are overwhelmed with noisy threads. This project showcases how agentic AI systems can scale discourse analysis with factual grounding, modular LLM orchestration, and rubric-based evaluation — demonstrating real-world LLM deployment at scale.",
+      highlights: [
+        "Modular multi-agent pipeline (Summarizer, Fact Checker, Evaluator) driven by config.yaml.",
+        "LLM-as-a-Judge scoring rubric (Relevance, Coherence, Factuality) inspired by RAGAS.",
+        "Tool-augmented fact-checking using Serper (search) + Wikipedia API.",
+        "Hybrid batch mode (10 real + 90 simulated threads) for scalable testing under free-tier limits.",
+        "Latency tracking + model trace per agent in tabbed Streamlit UI.",
+        "Fully free-tier deployed on Hugging Face using OpenRouter LLMs (Kimi, DeepSeek, Mistral)."
+      ]
+    }
+  },
+  {
     title: "ThreadNavigatorAI : Reddit-style Summarizer, Moderator & Reply Assistant (Agentic RAG)",
     duration: "2025",
     links: {
