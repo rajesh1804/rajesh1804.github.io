@@ -13,37 +13,40 @@ function About() {
         <Card.Body>
           <Card.Text>
             <p>
-              I’m a <strong>Machine Learning Engineer</strong> who builds AI systems that go beyond the notebook — systems that are <em>deployed, fast, and impact-driven</em>.
+              I’m a <strong>Machine Learning Engineer</strong> who builds AI that ships — not just notebooks. My systems are <em>real-time, drift-aware, latency-optimized, and deployed on the edge of what's possible</em>.
             </p>
+
             <p>
-              I’ve developed and shipped <strong>4 full-stack ML/LLM applications</strong> across domains like personalized recommendation, real-time forecasting, semantic search, and agentic RAG — all deployed on <strong>Hugging Face Spaces</strong> using open-source, cost-efficient tooling.
+              I specialize in <strong>real-world ML & LLM systems</strong> — from Uber-style fare prediction and Netflix-style recommenders to Reddit thread analyzers and Instacart style semantic grocery search. Every project I build is <em>production-grade</em>: deployed on <strong>Hugging Face Spaces</strong>, optimized for <strong>free-tier latency</strong>, and equipped with tools like <strong>ONNX, river, LangGraph, OpenRouter</strong>, and <strong>vector DBs (FAISS, Weaviate)</strong>.
             </p>
+
             <p>
-              My recent work spans:
+              At <strong>BlueCat Networks</strong>, I deployed AI that directly impacted product and ops teams: a <strong>RAG assistant</strong> that reduced triage time by 40%, <strong>ETS/ARIMA/STL forecasters</strong> that improved infra planning accuracy by 30%, and a <strong>weakly-supervised DNS anomaly detector</strong> that beat traditional baselines by 23%.
+            </p>
+
+            <p>
+              Earlier, at <strong>JP Morgan Chase</strong>, I engineered Spark + Kafka pipelines that ingested 50M+ records/day and brought down pipeline runtimes from 45 minutes to just 4 — showing my ability to scale both ML and data infra at production velocity.
+            </p>
+
+            <p>
+              I hold a Master’s in Applied Computing from the <strong>University of Toronto</strong> and build daily with <strong>Python, Hugging Face Transformers, LangGraph, OpenRouter, river, FAISS, Weaviate, PySpark, Docker, TensorFlow, Streamlit, AWS</strong>, and modern async-first ML tooling.
+            </p>
+
+            <p>
+              These days, I'm focused on:
               <ul>
-                <li>🧵 <strong>ThreadNavigatorAI</strong> – Reddit-style summarizer, moderator & reply assistant built with <strong>LangGraph</strong>, <strong>OpenRouter</strong>, and <strong>Weaviate</strong></li>
-                <li>🎬 <strong>StreamWiseAI</strong> – Netflix-style movie recommender + Retention Coach powered by <strong>RAG</strong></li>
-                <li>🚕 <strong>RideCastAI</strong> – Uber-style fare + ETA predictor with geospatial heatmaps and latency tracking</li>
-                <li>🛒 <strong>GroceryGPT+</strong> – Semantic grocery search engine using <strong>Sentence-BERT</strong> and LLM reranker</li>
+                <li>⚙️ Real-time ML systems with <strong>online learning + drift detection</strong></li>
+                <li>🧠 <strong>Agentic LLM pipelines</strong> that reason, fact-check, and evaluate themselves</li>
+                <li>📊 Evaluating production LLMs with robust metrics + user traceability</li>
               </ul>
             </p>
+
             <p>
-              At <strong>BlueCat Networks</strong>, I built a <strong>RAG-based assistant</strong> that cut support triage time by 40%, architected <strong>time series models</strong> (ETS, ARIMA, STL) for predictive infrastructure planning, and deployed anomaly detection using <strong>weak supervision</strong> — outperforming traditional baselines.
+              🎯 I’m exploring senior AI/ML roles where I can <strong>own end-to-end systems</strong> that think, adapt, and scale — in the spirit of what teams at <em>Uber, Stripe, Netflix, OpenAI, and Anthropic</em> are building.
             </p>
+
             <p>
-              Previously at <strong>JP Morgan Chase</strong>, I engineered high-throughput ETL systems using <strong>Spark, Kafka, and Snowflake</strong> to automate ingestion of 50M+ daily records, reducing pipeline runtime by 11x.
-            </p>
-            <p>
-              I hold a Master’s in Applied Computing from the <strong>University of Toronto</strong> and work fluently across <strong>Python, Hugging Face, LangGraph, OpenRouter, TensorFlow, PySpark, Docker, AWS</strong>, and modern LLM pipelines.
-            </p>
-            <p>
-              I stay sharp by experimenting with <strong>LoRA fine-tuning</strong>, multi-agent workflows, and new ways to evaluate and deploy production-grade LLMs using <strong>RAG + vector DBs</strong> like <strong>FAISS</strong> and <strong>Weaviate</strong>.
-            </p>
-            <p>
-              🎯 I’m currently exploring senior roles in AI/ML where I can own and deploy intelligent systems that are fast, explainable, and scalable.
-            </p>
-            <p>
-              <strong>Let’s connect</strong> if you're building at the intersection of <em>machine learning, user experience, and real-world impact</em>.
+              <strong>Let’s connect</strong> if you're building AI that’s intelligent, efficient, and ready to meet real-world demands.
             </p>
           </Card.Text>
 
@@ -74,12 +77,12 @@ function About() {
                   <Card.Text>
                     <strong>
                       <ListGroup variant="flush" as="ul">
-                        <ListGroup.Item as="li">Cricket 🏏 – lifelong fan, weekend player, and World Cup obsessive</ListGroup.Item>
-                        <ListGroup.Item as="li">Open World Gaming 🎮 – love exploring AI mechanics in games like GTA & RDR2</ListGroup.Item>
-                        <ListGroup.Item as="li">TV Show Bingeing 📺 – from sci-fi to courtroom dramas, I break down plot like a data flow</ListGroup.Item>
-                        <ListGroup.Item as="li">AI Podcast Listening 🎧 – regular listener of Latent Space, Practical AI, and Lex Fridman</ListGroup.Item>
-                        <ListGroup.Item as="li">Designing Clean UI/UX 💻 – streamlining user experiences in Streamlit & front-end tools</ListGroup.Item>
-                        <ListGroup.Item as="li">Reading Tech & Sci-Fi Books 📚 – from “The Almanack of Naval” to “Neuromancer”</ListGroup.Item>
+                        <ListGroup.Item as="li">Cricket 🏏 – weekend player & World Cup junkie</ListGroup.Item>
+                        <ListGroup.Item as="li">Open-world gaming 🎮 – especially GTA & Red Dead</ListGroup.Item>
+                        <ListGroup.Item as="li">Binge-worthy TV 📺 – sci-fi, courtroom dramas</ListGroup.Item>
+                        <ListGroup.Item as="li">AI podcasts 🎧 – Latent Space, Practical AI, Lex Fridman</ListGroup.Item>
+                        <ListGroup.Item as="li">UI/UX design 💻 – love clean, minimal interfaces</ListGroup.Item>
+                        <ListGroup.Item as="li">Tech & sci-fi books 📚 – from Naval to Neuromancer</ListGroup.Item>
                       </ListGroup>
                     </strong>
                   </Card.Text>
