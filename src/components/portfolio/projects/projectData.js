@@ -2,6 +2,28 @@
 
 export const projects = [
   {
+    title: "RideCastAI 2.0 : Real-Time Fare Prediction with Drift Detection & Online Learning",
+    duration: "2025",
+    links: {
+      article: "https://rajesh1804.medium.com/%EF%B8%8F-ridecastai-2-0-c68dfac54dbd",
+      live: "https://huggingface.co/spaces/rajesh1804/RideCastAI2.0",
+      github: "https://github.com/rajesh1804/RideCastAI2.0"
+    },
+    description: {
+      what: "RideCastAI 2.0 is a production-grade, real-time ML system for predicting ride fares and ETAs with built-in drift detection, online learning, and latency-optimized inference — all showcased through an interactive, modular Streamlit dashboard.",
+      why: "Modern ride-hailing systems like Uber and Lyft demand adaptive, low-latency ML infrastructure that can detect drift, update models online, and maintain performance over time. This project demonstrates how to build such a system from scratch — with real-time simulation, monitoring, and toggles — entirely within free-tier constraints.",
+      highlights: [
+        "Real-time fare/ETA prediction pipeline with `ONNX`, `joblib` caching, and `asyncio` for sub-second latency.",
+        "Dual drift detection: `HalfSpaceTrees` (input), `KSWIN` + `ADWIN` (output) with visual alerts.",
+        "Online learning via `River` — model updates continuously as new rides are ingested.",
+        "Rolling RMSE/MAE metrics with live error tracking and top-5 worst prediction inspector.",
+        "Interactive toggles for drift injection and online learning — simulate real-world chaos with control.",
+        "Multi-tab Streamlit UI: Live Prediction, Drift, Latency, Settings — all monitored in real time.",
+        "Fully deployed on Hugging Face Spaces with zero-cost infra (no LLMs used)."
+      ]
+    }
+  },
+  {
     title: "ThreadNavigatorAI 2.0 : Multi-Agent Reddit Analyzer with LLM-as-a-Judge",
     duration: "2025",
     links: {
