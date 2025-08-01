@@ -144,47 +144,47 @@ export const projects = [
     },
     details: `Compares Active Learning (AL) query strategies with Weak Supervision (Snorkel, Snuba, ASTRA) on real-world NLP datasets. Demonstrates that actively sampled data outperforms weakly supervised baselines, using models like Bayesian optimization and iterative labeling feedback.`
   },
-  {
-    title: "Covid19 Stats Dashboard",
-    duration: "May 2020",
-    links: {
-      live: "https://covid19app-5f5d3.web.app/",
-      github: "https://github.com/rajesh1804/covid19"
-    },
-    details: `A PWA dashboard built using React.js + Redux fetching live COVID stats from open APIs. Auto-refresh every 15 minutes, installable on all platforms (Android/iOS/Mac/Windows).`
-  },
-  {
-    title: "Detection of Phishing in Websites",
-    duration: "March 2019",
-    links: {
-      github: "https://github.com/rajesh1804/Detection-of-Phishing-in-Websites"
-    },
-    details: `A Python-based phishing URL detector using ML and 17 website attributes to classify links as legitimate or malicious.`
-  },
-  {
-    title: "Image Based Attendance Marker",
-    duration: "Feb 2017 - Apr 2017",
-    details: `Built in MATLAB, this system uses images from webcams to segment and match faces with a student database to record attendance.`
-  },
-  {
-    title: "Realtime Weather Monitoring App",
-    duration: "Feb 2018",
-    details: `Java + Arduino app for real-time temperature & humidity monitoring. Sends sensor data to Firebase and displays it in an Android app.`
-  },
-  {
-    title: "Classic Pong",
-    duration: "June 2019",
-    links: {
-      github: "https://github.com/rajesh1804/Detection-of-Phishing-in-Websites"
-    },
-    details: `Multiplayer Pong game built in Python using the Turtle module. Simple and fast retro gameplay.`
-  },
-  {
-    title: "Connect 4 Game",
-    duration: "June 2019",
-    links: {
-      github: "https://github.com/rajesh1804/Connect-Four-Java-Application"
-    },
-    details: `Java + JavaFX implementation of the classic Connect 4 game with modular code and UI components.`
-  }
+  // {
+  //   title: "Covid19 Stats Dashboard",
+  //   duration: "May 2020",
+  //   links: {
+  //     live: "https://covid19app-5f5d3.web.app/",
+  //     github: "https://github.com/rajesh1804/covid19"
+  //   },
+  //   details: `A PWA dashboard built using React.js + Redux fetching live COVID stats from open APIs. Auto-refresh every 15 minutes, installable on all platforms (Android/iOS/Mac/Windows).`
+  // },
+  // {
+  //   title: "Detection of Phishing in Websites",
+  //   duration: "March 2019",
+  //   links: {
+  //     github: "https://github.com/rajesh1804/Detection-of-Phishing-in-Websites"
+  //   },
+  //   details: `A Python-based phishing URL detector using ML and 17 website attributes to classify links as legitimate or malicious.`
+  // },
+  // {
+  //   title: "Image Based Attendance Marker",
+  //   duration: "Feb 2017 - Apr 2017",
+  //   details: `Built in MATLAB, this system uses images from webcams to segment and match faces with a student database to record attendance.`
+  // },
+  // {
+  //   title: "Realtime Weather Monitoring App",
+  //   duration: "Feb 2018",
+  //   details: `Java + Arduino app for real-time temperature & humidity monitoring. Sends sensor data to Firebase and displays it in an Android app.`
+  // },
+  // {
+  //   title: "Classic Pong",
+  //   duration: "June 2019",
+  //   links: {
+  //     github: "https://github.com/rajesh1804/Detection-of-Phishing-in-Websites"
+  //   },
+  //   details: `Multiplayer Pong game built in Python using the Turtle module. Simple and fast retro gameplay.`
+  // },
+  // {
+  //   title: "Connect 4 Game",
+  //   duration: "June 2019",
+  //   links: {
+  //     github: "https://github.com/rajesh1804/Connect-Four-Java-Application"
+  //   },
+  //   details: `Java + JavaFX implementation of the classic Connect 4 game with modular code and UI components.`
+  // }
 ];

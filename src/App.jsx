@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navibar from './components/navibar/Navibar';
 import Intro from './components/intro/Intro';

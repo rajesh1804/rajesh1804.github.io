@@ -22,19 +22,22 @@ function Portfolio() {
                     <div className="spacer" />
                     <Row><Internships /></Row>
                     <div className="spacer" />
-                    <Row><Ta /></Row>
-                    <div className="spacer" />
-                    <Row><Education /></Row>
-                    <div className="spacer" />
-                    <Row><Publications /></Row>
+                    
+                    <Row><Projects /></Row>
                     <div className="spacer" />
                     <Row><Accolades /></Row>
                     <div className="spacer" />
-                    <Row><Projects /></Row>
+                    <Row><Education /></Row>
                     <div className="spacer" />
+                    <Row><Ta /></Row>
+                    <div className="spacer" />
+                    
+                    {/* <Row><Publications /></Row>
+                    <div className="spacer" /> */}
+                    
                     <Row><Testimonials /></Row>
                     <div className="spacer" />
-                    <Row><Resume /></Row>
+                    {/* <Row><Resume /></Row> */}
                 </Card.Body>
             </Card>
         </Container>
