@@ -11,7 +11,7 @@ export default function Footer(){
   return(
     <Navbar expand="lg" variant="light" className="footer-navbar">
       <Container>
-        <Navbar.Brand href="#intro">© Rajesh 2025😎</Navbar.Brand>
+        <Navbar.Brand href="#intro">© Rajesh 2026😎</Navbar.Brand>
           <Nav className="me-auto">
           </Nav>
           <Nav>
